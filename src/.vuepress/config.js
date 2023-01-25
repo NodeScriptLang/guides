@@ -57,6 +57,7 @@ module.exports = {
             'nodes',
             'modules',
             'endpoints',
+            'variables',
             'workspaces',
           ]
         }
@@ -67,9 +68,8 @@ module.exports = {
           collapsable: false,
           children: [
             '',
-            'creating-modules',
-            'consuming-gcp-pub-sub',
-            'building-a-slack-application',
+            // 'consuming-gcp-pub-sub',
+            // 'building-a-slack-application',
           ]
         }
       ],
