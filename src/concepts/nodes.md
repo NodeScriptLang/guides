@@ -17,4 +17,4 @@ There are two types of Nodes that you should understand the difference of:
 
 ## Adding Nodes to a Graph
 
-When you are editing a graph, press your spacebar to view all the nodes that you can add to the canvas. You can search or scroll within the menu to find the node you would like to add.
+When you are editing a graph, press your spacebar or right click to view all the nodes that you can add to the canvas. You can search or scroll within the menu to find the node you would like to add.
