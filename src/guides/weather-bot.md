@@ -4,7 +4,7 @@
 
 In this tutorial we will make a simple NodeScript graph that tells us the weather with a GET request. This introductory workflow is designed to show you the basic functionality of the UI and how nodes connect.
 
-Please visit https://nodescript.dev/ and sign in with GitHub to begin.
+Please visit [nodescript.dev](https://nodescript.dev/) and sign in with GitHub to begin.
 
 ### Sign up for an API key:  
 Before you can make the weather bot, you'll need to sign up for an API key. There are several weather APIs available, such as WeatherAPI and Weatherbit.
