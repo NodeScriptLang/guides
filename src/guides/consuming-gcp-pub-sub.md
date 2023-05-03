@@ -2,4 +2,7 @@
 
 ## Overview
 
-Overview of what we're going to build.
+Overview of what we're going to build today.
+
+
+## Step by step
