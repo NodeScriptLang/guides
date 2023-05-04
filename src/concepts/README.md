@@ -2,16 +2,35 @@
 
 The section will introduce you to some core concepts in NodeScript. It is highly recommended that you become familiar with them, either before, or in parallel with using it.
 
-Welcome to NodeScript, your low-code tool for making workflow automation and API integration a breeze!
+Welcome to NodeScript, a low-code tool designed to simplify workflow automation and API integration processes.
 
-The platform is easy to use, with a visual interface that helps you connect different services and systems. Whether you're a pro developer or a newbie, NodeScript is perfect for streamlining your workflows.
+**Here's what NodeScript can do for you:**
 
-Here's what NodeScript can do for you:
+- Connect APIs and online services without the need for complex coding
+- Visually design and manage complicated workflows, making them clear and simple to maintain
+- Help everyone in your team collaborate, because our visual system is easy to understand and share
 
-- Connect APIs and online services without the need for complex coding.
-- Visually design and manage complicated workflows, making them clear and simple to maintain.
-- Help everyone in your team collaborate, because our visual system is easy to understand and share.
+## How does it work?
 
-By using NodeScript to automate tasks and workflows, you'll save time and boost efficiency, giving you more space to focus on important projects. Plus, our visual programming interface makes it a piece of cake for non-technical users to create and manage.
+At its core, NodeScript is a node-based visual programming language that enables users to create flow-based [graphs](./graphs.md), which can then be executed in real-world scenarios through an [endpoint](./endpoints.md).
+
+The functionality and scope of your graph are entirely up to you. NodeScript offers an infinitely scalable canvas that can accommodate as many [nodes](nodes.md) as you need!
+
+### Key Features & Capabilities: ###
+
+- Always ready - no setup needed
+- Always running - no hosting required
+- Immediate feedback without deployment
+- Collaborative environment for team projects
+- Composable elements for versatile creations
+
+### Why NodeScript? ###
+
+- Real-time results - see the outcomes as you develop
+- Speed - at scale, it's faster than traditional coding
+- Atomic design - modular components for flexibility
+- Instant work and deployment - save time and effort
+- Automated API calls - no more manual interventions
+- Accessibility - suitable for developers of all skill levels
 
 Lets dive into some of concepts and features you will find in NodeScript...
