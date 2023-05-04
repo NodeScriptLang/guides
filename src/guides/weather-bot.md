@@ -6,23 +6,27 @@ In this tutorial we will make a simple NodeScript graph that tells us the weathe
 
 Please visit [nodescript.dev](https://nodescript.dev/) and sign in with GitHub to begin.
 
-### Sign up for an API key:  
+### Sign up for an API key:
+
 Before you can make the weather bot, you'll need to sign up for an API key. There are several weather APIs available, such as WeatherAPI and Weatherbit.
 
 You can sign up for a free API key by visiting their websites and following the instructions. For this tutorial, we'll be using WeatherAPI.com. You can sign up for an API key at 
 [weatherapi.com](https://www.weatherapi.com/signup.aspx)
 
 ### Create a new workspace:
+
 - From the NodeScript dashboard select your user name from the SidePanel on the left of the screen.
 - Select “Create Workspace” from the menu.
 - Call the Workspace “WeatherBot”
 
 ### Create a new Graph:
+
 - Select “New Graph” from the top of your Workspace, Graphs page.
 - Rename the new graph by selecting the “New Graph” title in the top left of the canvas
 - Rename your graph “WeatherAPICall”
 	
 ### Create your API key Variable:
+
 - Navigate the variables page by selecting the Icon next to the graph title and selecting “Variables” from the dashboard. 
 
 ![Navigate to variables](./images/weather-bot/navigate-to-variables.gif)
@@ -31,6 +35,7 @@ You can sign up for a free API key by visiting their websites and following the 
 - Title the variable “API_KEY” and add your Weatherapi key to the Value textbox.
 
 ### Set up the inputs for the GET request:
+
 - Navigate back to your graph, right click on the canva, select “Variable” from the menu and add your newly created API_KEY variable.
 - Also add an “New input” node to your graph and label it “Query”. Select the cog symbol on the new input, set the type to STRING and add a location to the default input, for our tutorial we will use “London”.
 
