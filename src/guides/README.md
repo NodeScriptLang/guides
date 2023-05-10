@@ -4,4 +4,4 @@ The guides in this section are intended to give you a jumping off point for your
 
 It is highly recommended that you understand the NodeScript [concepts](../concepts) before following these guides, but it is perfectly possible to pick them up as you go.
 
-**Guides are coming soon**
+
