@@ -1,6 +1,6 @@
 # Modules
 
-If your graph contains an output node, you can expose it as a _module_. Generally, a module will also contain some input(s) as well, but this isn't always the case. Graphs do not by default make themselves available as a module, it needs to be explicitly published as one.
+If your graph contains an output node, you can expose it as a _module_. Generally, a module will contain some input(s) as well, but this isn't always the case. Graphs do not by default make themselves available as a module, they need to be explicitly published as one.
 
 Publishing a graph as a module means that this graph can be consumed in _another_ graph. When publishing a module you can choose between exposing it:
 

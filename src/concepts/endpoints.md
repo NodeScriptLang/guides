@@ -1,8 +1,8 @@
 # Endpoints
 
-Endpoints allow your graph to be executed by the outside world. They are the key to your graphs being called by other systems, and then executing. You can build them into your own applications, other no code tools or distribute them to users to consume how they want.
+Endpoints allow your graph to be executed by the outside world. They are the key to your graphs being called by other systems, and then executing. You can build them into your own applications, other no-code tools or distribute them to users to consume how they want.
 
-When you publish an endpoint, it becomes available immediately. We host the code and make it available on the internet for you, similar to AWS Lambda or Gogole Cloud Run, but without the mess, complicated management and... the need to write code!
+When you publish an endpoint, it becomes available immediately. We host the code and make it available on the internet for you, similar to AWS Lambda or Google Cloud Run, but without the mess, complicated management and... the need to write code!
 
 There are two ways to publish an endpoint:
 
@@ -11,7 +11,7 @@ There are two ways to publish an endpoint:
 
 The easiest way to cut a first draft is from your Graph and then come to the endpoints page to refine it. When editing an endpoint, you can:
 
- - Change the request method and URI (also commonly called the pathname).
+ - Change the request method and URI (also commonly called the path name).
  - Update the Graph which this endpoint points to.
  - Change the version of the graph which is executed when the endpoint is called. 
 
@@ -25,7 +25,7 @@ Each workspace has a unique ID and subdomain. This will be in the format:
 https://<workspace_id>.nodescript.dev
 ```
 
-When we publish an endpoint, the path name you choose is appended to this. If we name the path `v1/my-endpoint`, our graph will be exposed at:
+When you publish an endpoint, the path name you choose is appended to this. If we name the path `v1/my-endpoint`, your graph will be exposed at:
 
 ```
 https://<workspace_id>.nodescript.dev/v1/my-endpoint
@@ -35,7 +35,7 @@ https://<workspace_id>.nodescript.dev/v1/my-endpoint
 
 The way you want to consume your endpoint will usually dictate the best request method to use. Using NodeScript, it is very easy to create a [RESTful API](https://www.redhat.com/en/topics/api/what-is-a-rest-api) with JSON.
 
-When your graph has variables, let's say a "user_id" variable, any `GET` endpoints that call that graph can use query parameters to pass the varaiable, such as:
+When your graph has variables, let's say a "user_id" variable, any `GET` endpoints that call that graph can use query parameters to pass the variable, such as:
 
 ```
 https://xxxxxxx.nodescript.dev/my/endpoint?user_id=me
@@ -59,4 +59,4 @@ If you are using an endpoint in production then it can be wise to _pin_ your end
 
 ## Authentication
 
-In the future, you will be able to add authentication strategies to your endpoints to lock them down, but that is not currently available, so do not expose anything private using NodeScript.
+In the future, you will be able to add authentication strategies to your endpoints to lock them down, but this is currently not available, so do not expose anything private using NodeScript.

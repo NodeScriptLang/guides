@@ -1,14 +1,12 @@
 # Introduction
 
-The section will introduce you to some core concepts in NodeScript. It is highly recommended that you become familiar with them, either before, or in parallel with using it.
-
 Welcome to NodeScript, a low-code tool designed to simplify workflow automation and API integration processes.
 
 **Here's what NodeScript can do for you:**
 
 - Connect APIs and online services without the need for complex coding
 - Visually design and manage complicated workflows, making them clear and simple to maintain
-- Help everyone in your team collaborate, because our visual system is easy to understand and share
+- Simplify collaboration within your team, with our visual system that is easy to understand and share
 
 ## How does it work?
 

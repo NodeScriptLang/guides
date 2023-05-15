@@ -1,13 +1,11 @@
 # Variables
 
-You can view your variables using the sidebar navigation. A new workspace won't have any variables to begin with, so you'll need to create one. Unless you don't need any, in which case you don't need to, but you will probably run into a situation where variables come in handy pretty quickly.
+You can view your variables using the workspace navigation. A new workspace doesn't have any variables to begin with, so you'll need to create them if you need them. You might not need them at first, but you will probably run into a situation where variables come in handy pretty quickly.
 
 Variables are _scoped_ to the workspace they exist in - you cannot use these variables in other workspaces and other workspaces cannot use variables in your workspace.
 
 To create a new variable, press the `Add Variable` button. The window will allow you to give it a name. Remember that workspaces do not share variables, which may help when deciding a name. For example, we may have an API Key to integrate with the Stripe API. We could call our variable `STRIPE_API_KEY`. There's no hard rules for your casing on variable names, but an uppercase name is similar to environment variable names for _actual code_ application that we write, so we'll stay close to that.
 
-Because this is a sensitive variable (we want it to be encrypted when saved and masked in the UI when consuming it), we should make that the `Sensitive` toggle is ON. If we were adding a variable that wasn't sensitive, and we actually wanted to read it when editing our graphs (for example the Stripe base URL), we would... well, uncheck the sensitive toggle.
+Because this is a sensitive variable (we want it to be encrypted when saved and masked in the UI when consuming it), we should make sure that the `Sensitive` toggle is ON. If we're adding a variable that isn't sensitive, one we want to read when editing our graphs (for example the Stripe base URL), we would simply turn off the sensitive toggle.
 
-Sensitive variables cannot be read back, they can only be updated, so make sure that if you are generating any keys with other systems that you store them securely somewhere else as well in case you change your variable name in the future (you cannot rename your variable once you've created it, but you can add more).
-
-Variables can also be _copied_ to other workspaces, which is useful when you start building graphs in one workspace and then decide to start isolating them by function/team etc. To do this, select the variable in the UI, press the `Actions` button and click `Copy variables to workspace`. Select the new workspace (that you need to be a member of) and hey presto, your variable is there as well. Please note that changes to the variable value in one workspace won't update the value in the other, so you need to change it any where it is used after copying.
+The value of sensitive variables cannot be read back, only updated. If you generate keys with other systems, be sure to store them somewhere secure in case you need to change your variable name in the future. ***Remember that once you create a variable, you cannot rename it, but you can add more.***
