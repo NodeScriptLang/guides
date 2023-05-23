@@ -12,7 +12,7 @@ Use the Workspace menu to access your workspace `Settings`, click through to `Me
 
 ## Creating and managing endpoints
 
-You can find all your endpoints in the `Endpoints` sidebar. Endpoints can be very powerful and flexible, as you can see [here](./endpoints). Before relying on NodeScript for production applications, take some time to plan out your endpoints carefully
+You can find all your endpoints in the `Endpoints` sidebar. Endpoints can be very powerful and flexible, as you can see [here](./endpoints.md). Before relying on NodeScript for production applications, take some time to plan out your endpoints carefully
 
 ## Managing your workspace name
 

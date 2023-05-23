@@ -13,7 +13,7 @@ The inputs can be identified by the shape (the triangle towards the right), and 
 There are two types of Nodes that you should understand the difference of:
 
  - **Standard Library** - these nodes cannot have their behaviour changed, they are provided by NodeScript. They provide the foundation to build more complex graphs.
- - **Modules** - these are covered in more detail [here](./modules), but succinctly they are ways of calling other graphs that perform their own logic.
+ - **Modules** - these are covered in more detail [here](./modules.md), but succinctly they are ways of calling other graphs that perform their own logic.
 
 ## Adding Nodes to a Graph
 
