@@ -72,7 +72,7 @@ module.exports = {
             // 'consuming-gcp-pub-sub',
             // 'building-a-slack-application',
             'weather-bot',
-            'FAQs',
+            'faqs',
           ]
         }
       ],
