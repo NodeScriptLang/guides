@@ -134,7 +134,7 @@ ___
 
 Right click or press space bar on the canvas and add your first node.
 
-Refer to our [First Graph Guide](https://guides.nodescript.dev/guides/weather-bot.html) for more details.
+Refer to our [First Graph Guide](./weather-bot.md) for more details.
 
 ___
 
