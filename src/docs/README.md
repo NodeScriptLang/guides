@@ -2,7 +2,7 @@
 
 Welcome to NodeScript, a low-code tool designed to simplify workflow automation and API integration processes.
 
-**Here's what NodeScript can do for you:**
+**Here's what NodeScript can do:**
 
 - Connect APIs and online services without the need for complex coding
 - Visually design and manage complicated workflows, making them clear and simple to maintain

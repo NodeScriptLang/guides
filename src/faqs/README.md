@@ -187,3 +187,4 @@ The output of a give node, or module, can be seen above its top right hand corne
 Attributes of a JSON object can also be instantly accessed via the click and drag function. Whereas with conventional coding, the data would need to be filtered and manipulated, with NodeScript this is a single click. 
 
 ![Instant data](./images/FAQs/instantinfo.gif)
+
