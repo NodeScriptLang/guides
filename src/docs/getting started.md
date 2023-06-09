@@ -6,7 +6,7 @@ NodeScript requires no dependencies, configuration or installation, and will run
 
 ## Sign in
 
-At the moment, NodeScript only supports Sign in with GitHub, but we'll be adding more options soon. For now, all we need is your email address, which we'll get through GitHub authentication.
+All we need is your email address, which we'll get through GitHub authentication.
 
 To sign in through GitHub, just click on the option in the top right corner of the landing page and authorize NodeScript to access your GitHub account.
 

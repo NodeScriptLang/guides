@@ -4,7 +4,7 @@ module.exports = {
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#title
    */
-  title: 'NodeScript Guides',
+  title: 'NodeScript | Documentation',
   /**
    * Ref：https://v1.vuepress.vuejs.org/config/#description
    */
@@ -34,12 +34,12 @@ module.exports = {
     lastUpdated: false,
     nav: [
       {
-        text: 'Concepts',
-        link: '/concepts/',
+        text: 'Docs',
+        link: '/docs/',
       },
       {
-        text: 'Guides',
-        link: '/guides/',
+        text: 'FAQs',
+        link: '/faqs/',
       },
       {
         text: 'NodeScript',
@@ -47,9 +47,9 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/concepts/': [
+      '/docs/': [
         {
-          title: 'Concepts',
+          title: 'NodeScript',
           collapsable: false,
           children: [
             '',
@@ -60,20 +60,21 @@ module.exports = {
             'endpoints',
             'variables',
             'workspaces',
+            'tutorials',
+            'usecases',
           ]
         }
       ],
-      '/guides/': [
+      '/faqs/': [
         {
-          title: 'Guides',
+          title: 'FAQs',
           collapsable: false,
           children: [
             '',
+            'feedback-and-support',
             // 'consuming-gcp-pub-sub',
             // 'building-a-slack-application',
-            'weather-bot',
-            'usecases',
-            'faqs',
+            
           ]
         }
       ],
