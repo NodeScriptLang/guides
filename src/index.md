@@ -28,10 +28,9 @@ We look forward to seeing what you build with NodeScript. Thank you for being an
 The NodeScript Team
 
 <div style="text-align: center;">
-    <a href="https://nodescript.dev" >Start now!</a>
+    <a href="https://nodescript.dev" style="background-color: #42A5F5; color: white; padding: 10px 20px; text-decoration: none; border-radius: 10px;">Start now!</a>
 </div>
-</div>
-<br>
+
 
 
 
