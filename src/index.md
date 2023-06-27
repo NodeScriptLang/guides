@@ -11,7 +11,7 @@ To get started, here is a quick look at what NodeScript can do:
     <iframe style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" src="" frameborder="3" allowfullscreen>
     </iframe>
 
-### -Super useful and help video, goes here-
+### -Super useful and helpful video goes here-
   
 </div>
 
