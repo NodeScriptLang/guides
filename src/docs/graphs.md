@@ -6,7 +6,8 @@ You'll use the Graph to interact with, create, and manage your workflows or appl
 
 Graphs give you:
 
- - **Instant Feedback** - they are evaluated and the intermediate results are displayed.
- - **Composable** - you can combine many Nodes together.
- - **Reusable** - a Graph can be published as a module, allowing its functionality to be used in other graphs.
-
+ - **Instant Feedback** - graphs are evaluated as you build and the results are displayed immediently.
+ - **Composability** - you can combine many Nodes together to build complex functionanlity.
+ - **Reusability** - a Graph can be published as a module, allowing its functionality to be used in other graphs.
+ - **Shared Environments** - users share access to, and can work simultaniously on, graphs within the same workspace. 
+ 

@@ -1,6 +1,6 @@
 # Getting started
 
-Let's get started with NodeScript. In this section, we'll explore the platform's layout and how to navigate the dashboard. 
+In this section, we'll explore the platform's layout and how to navigate the dashboard. 
 
 NodeScript requires no dependencies, configuration or installation, and will run in any browser.
 

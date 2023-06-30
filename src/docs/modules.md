@@ -11,7 +11,7 @@ In the future, we plan on adding support for publishing modules in a third way -
 
 Let's take our sum graph as an example, which looks like this:
 
-![Sum Graph](./images/nodes/sum.png)
+![Sum Graph](./images/nodes/nodes-output.png)
 
 When we expose this as a _module_, a different graph can consume it like this:
 
