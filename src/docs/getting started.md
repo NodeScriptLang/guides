@@ -1,8 +1,6 @@
 # Getting started
 
-In this section, we'll explore the platform's layout and how to navigate the dashboard. 
-
-NodeScript requires no dependencies, configuration or installation, and will run in any browser.
+In this section, we'll explore the platform's layout and how to navigate the dashboard. Firstly, NodeScript requires no dependencies, configuration or installation, and will run in any browser.
 
 ## Sign in
 
