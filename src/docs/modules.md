@@ -17,4 +17,6 @@ When we expose this as a _module_, a different graph can consume it like this:
 
 ![Sum Graph](./images/modules/sum.png)
 
-Now the complexity of the module is hidden and we only need to deal with the input and output, which can then be plugged into our own set of values.
+Now the complexity of the module ('return a + b:') is hidden and we only need to deal with the input and output, which can then be plugged into our own set of values.
+
+This functionality can be used to add hugely complex functionality into your graph as a single node.
