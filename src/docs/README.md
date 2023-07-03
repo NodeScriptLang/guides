@@ -1,14 +1,16 @@
 # Introduction
 
-Welcome to NodeScript, a low-code tool designed to simplify workflow automation and API integration processes. NodeScript is designed to help you connect APIs and online services without the need for complex coding. 
+Welcome to NodeScript, a platform designed to simplify workflow automation and API integration processes. NodeScript is designed to help you connect APIs and online services without the need for complex coding. 
 
-Its visual interface helps you design, manage and maintain complicated workflow that can be easily shared and collaborated on across teams.
+NodeScript intuitive visual interface allows you to effortlessly design, manage, and maintain complicated workflows in a format that can be easily shared and collaborated on across teams.
 
 ## How does it work?
 
 At its core, NodeScript is a node-based visual programming language that enables users to create flow-based [graphs](./graphs.md), which can then be executed in real-world scenarios through an [endpoint](./endpoints.md).
 
 The functionality and scope of your graph are entirely up to you. NodeScript offers an infinitely scalable canvas that can accommodate as many [nodes](nodes.md) as you need!
+
+![NodeScript](./images/getting-started/example_graph.png)
 
 ### Key Features & Capabilities: ###
 
