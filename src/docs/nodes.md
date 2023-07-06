@@ -21,19 +21,17 @@ When you are editing a graph, press spacebar or right click to open a menu that 
 
 ## Inputs
 
-In our example above the input node as two variables, 'a' and 'b', with a value of 1 and 7 respectively. These values are defined in the Input Settings menu found in the top left of the canvas:
+Our example above as two inputs, 'a' and 'b', with a value of 1 and 7 respectively. These values are defined in the Input Settings menu found in the top left of the canvas:
 
 ![Input Settings](./images/nodes/input-settings.png)
 
-Multiple variables can be added to an input, each with a different type and value assigned. In our example, there are two variables of type: Number, and each with a separate value assigned.
-
-The settings for each variable can be reconfigured at any time via the action menu:  
+Multiple inputs can be added, each with a different type and value assigned. The settings for each input can be reconfigured at any time via the action menu:  
 
 ![Configure Input](./images/nodes/configure-input.png)
 
 ### Datasets
 
-Datasets can also be added in the Input settings menu. This allows different values to be added to the input variables and changed between freely.  This functionality is set up so that you always have the same inputs (like 'a' and 'b') for all your datasets, but you can change their values however you want.
+Datasets can also be added in the Input settings menu. This allows different values to be added to the inputs and changed between freely.  This functionality is set up so that you always have the same inputs (like 'a' and 'b') for all your datasets, but you can change their values however you want.
 
 **For example**, let's say you're trying to find out the sunset and sunrise times for specific locations, like Lisbon and London. You would use latitude and longitude as your inputs. You can save the latitude and longitude for Lisbon in one set, we'll call this 'Dataset 1'. Then, you can save the latitude and longitude for London in another set, which we'll call 'Dataset 2'.
 
