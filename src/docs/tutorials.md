@@ -1,8 +1,10 @@
 # Tutorials
 
+Here you will find step by step guides of increasing complexity, designed to get you used to the basic functions and features of NodeScript.
+
 ## Building Your First Graph 
 
-Welcome to your first NodeScript journey! In this tutorial, we'll walk you through creating a simple NodeScript graph that fetches and presents weather data using a GET request. This will help you get familiar with NodeScript's interface and node connections.
+In this first tutorial, we'll walk you through creating a simple NodeScript graph that fetches and presents weather data using a GET request. This will help you get familiar with NodeScript's interface and node connections.
 
 Ensure you're logged into [NodeScript](https://nodescript.dev/) before you begin.
 
@@ -12,7 +14,7 @@ To fetch weather data, you need an API key from a weather API provider. There ar
 
 ### Step 2: Create a New Workspace
 
-Navigate to the NodeScript dashboard and select your username from the SidePanel on the screen's left side. Then, click on "Create Workspace" from the menu and name this workspace "WeatherBot".
+Navigate to the NodeScript dashboard and click on "Create Workspace" from the menu and name this workspace "WeatherBot".
 
 ### Step 3: Create a New Graph
 
@@ -20,61 +22,65 @@ Inside your "WeatherBot" workspace, click on "New Graph" at the top. A new graph
 
 ### Step 4: Store Your API Key as a Variable
 
-Click on the icon next to your graph's title, to navigatge to the dashboard, and select "Variables" from the menu. 
+Now, click on the NodeScript icon next to your graph's title (this is how to navigate back the dashboard from anywhere in NodeScript), and select "Variables" from the menu. 
 
-![Navigate to variables](./images/weather-bot/navigate-to-variables.gif)
+![Navigate to variables](./images/weather-bot/navigate-home.gif)
 
-Once there, add a new variable. Name it "API_KEY" and put your WeatherAPI key in the "Value" field.
+Once there, open the variable tab and add a new variable. Name it "KEY" and put your WeatherAPI key in the Value field.
+
+![API key variable](./images/weather-bot/add-variable.gif)
 
 ### Step 5: Set up the inputs for the GET request
 
-Now, navigate back to your graph, right click on the canva, select “Variable” from the menu and add your newly created API_KEY variable. This will authorize our API call when we make our GET request.
+Back in our graph - We need our key and a query as inputs for our request. To define our inputs select the IN icon in the top left of the canvas. 
 
-Next, add an “New input” node to your graph and label it “Query”. Select the cog symbol on the new input, set the type to STRING and add a location to the default input, for our tutorial we will use “London”.
+First, we will add our API key - Add input > New variable > select your newly created variable from the list. 
 
-![Query value](./images/weather-bot/query.gif)
+The query, which will be used to select the location of the weather we see - New input > Name it “Query” > make it type "String" and finally add your default value in JSON format, for our tutorial we will use "London". Feel free to experiment with this later.
 
+![Query value](./images/weather-bot/add-input.gif)
 
-We want to combine our Query and Key into a single input for our request. To do this add an "Object" node to the graph. Give it two properties named "Key" and "Query". Then, connect the nodes to their corresponding links.
-
-![Connecting nodes](./images/weather-bot/connecting-nodes.gif)
+Now right click on your graph and select "Input" to add it.
 
 ### Step 6: Make the GET request:
 
-- Add a “Web/HTTP Request” node to your graph.
-- Select “GET” from the “Method” drop menu.
-- Add “https://api.weatherapi.com/v1/current.json” to the URL text box.
-- Select “more” from the bottom of the node and select the “Query” option.
-- Now, connect your previously created object to the Query input and press play!
+We are now ready to make our HTTP GET Request and give it the approriate parameters to give us the weather in London. 
 
-![Get request](./images/weather-bot/get-request.gif)
+Add a "Web / Http Response" node to the graph. The default method will already be GET, which is what we need. Add “https://api.weatherapi.com/v1/current.json” to the URL field. 
 
-Now we have successfully made an API call and we can see the results in JSON format above the Request node. However, we don't want all of this data, we want to filter it to just the important parts to our user. 
+Finally, select the "more..." option in the node, select "query" and connect your input node to the query connector.
 
-Thankfully NodeScript has a handy feature to help you do that quick and painlessly…
+![Get request](./images/weather-bot/connect-inputs.gif)
+
+Now we have successfully made an API call and pressing play will show us the results above the request node. However, we don't want all of this data, we want to filter it to just the important parts to our users. 
 
 ### Step 7: Filter the JSON Data
 
-The API call will return a JSON response. However, we only need certain bits of this data. To extract those, expand the JSON response by clicking the downward arrow. Drag the "Name", "localtime", and "temp_c" values from the "Body" to the canvas.
+The API call will return a JSON response. However, we only need certain bits of this data. To extract those, expand the JSON response by expanding the JSON and dragging each value you want out of the JSON container. The value will automatically snap to your request node as a property for later use.
+
+Let's take the location name, local time and current temp from the response body, like so:
 
 ![Name value](./images/weather-bot/name-value.gif)
 
 
 ### Step 8: Create the Output
 
-Last but not least, gather all the values together and create an output. Add an "Object" node with properties for each value extracted from the JSON and connect them accordingly. Create an "Output" node and connect your object to it. 
+Our final step is to create our graph's output. To do this we need to combine our 3 result properties into a single object and feed it to an output node.
 
-Hit play again, and voila! You now have the location, time, and temperature based on the default value entered in your "Query" node.
+Add an "Object" node to the graph and use the '+' icon to add 3 properties to it. Name each property and connect them accordingly.
 
-![Complete graph](./images/weather-bot/weather-bot-complete.png)
+Create an "Output" node and connect your object to it and we're finished!
+
+![Create output object](./images/weather-bot/output.gif)
 
 Feel free to play around by changing the default value in your "Query" to see weather data for other locations!
 
-Now that you've built your first NodeScript graph, you're ready to take on more complex workflows. Happy NodeScripting!
+Now that you've built your first NodeScript graph, you're ready to take on more complex workflows. 
 
 <div style="page-break-after: always;"></div>
 
-## Creating Advance Workflows
+
+<!--- ## Creating Advance Workflows
 
 Great job on creating your first graph with NodeScript! In this advanced tutorial, we'll take it a step further by building a Weather Forecast Bot. It will provide weather forecasts for different times and places, all retrieved via API calls.
 
@@ -113,3 +119,4 @@ Connect the values mentioned above (from inside the Map node) to the correspondi
 Press play, and there you have it! You'll see the average temperature and weather condition for the next few days in your chosen location.
 
 Play around with different values for "Query" and "Days". You'll see that your Weather Forecast Bot can provide forecasts for any location and any number of days you want. That's the power of NodeScript and your creativity combined! Keep exploring and see what else you can build.
+--->
