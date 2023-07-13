@@ -9,8 +9,9 @@ As part of our selected group of testers, you're getting a first-hand look at No
 To get started, here is a quick look at what NodeScript can do:
 
 <figure class="video_container">
-  <iframe src="https://drive.google.com/file/d/1fXozCP8dCZAQGRtf8jpu0qo1-zLiRsK0/preview" frameborder="0" allowfullscreen="true"  width="650" height="350"> </iframe>
+  <iframe src="https://drive.google.com/file/d/1_39ZYiYnkzkWZR24p70N0bCcwwoLElfg/preview" frameborder="0" allowfullscreen="true"  width="650" height="350"> </iframe>
 </figure>
+
 
 And here are a few key points we want you to keep in mind during this period:
 * **Executing graphs in the editor is absolutely free:** Feel free to execute your graph as many times as you like while building and testing.
