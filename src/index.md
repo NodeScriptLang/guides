@@ -8,8 +8,31 @@ As part of our selected group of testers, you're getting a first-hand look at No
 
 To get started, here is a quick look at what NodeScript can do:
 
+<style>
+  .video_container {
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+    overflow: hidden;
+  }
+
+  .video_container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  @media (max-width: 600px) {
+    .video_container {
+      padding-bottom: 75%; /* Aspect ratio 4:3 for smaller screens */
+    }
+  }
+</style>
+
 <figure class="video_container">
-  <iframe src="https://drive.google.com/file/d/1_39ZYiYnkzkWZR24p70N0bCcwwoLElfg/preview" frameborder="0" allowfullscreen="true"  width="650" height="350"> </iframe>
+  <iframe src="https://drive.google.com/file/d/1_39ZYiYnkzkWZR24p70N0bCcwwoLElfg/preview" frameborder="0" allowfullscreen="true"></iframe>
 </figure>
 
 
