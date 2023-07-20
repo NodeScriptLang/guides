@@ -13,6 +13,7 @@ To get started, here is a quick look at what NodeScript can do:
     position: relative;
     width: 100%;
     padding-bottom: 56.25%; /* Aspect ratio 16:9 */
+    right: 40px;
     overflow: hidden;
   }
 
@@ -34,6 +35,7 @@ To get started, here is a quick look at what NodeScript can do:
 <figure class="video_container">
   <iframe src="https://drive.google.com/file/d/1_39ZYiYnkzkWZR24p70N0bCcwwoLElfg/preview" frameborder="0" allowfullscreen="true"></iframe>
 </figure>
+
 
 
 And here are a few key points we want you to keep in mind during this period:
