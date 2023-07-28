@@ -72,6 +72,7 @@ module.exports = {
           children: [
             '',
             'feedback-and-support',
+            'privacy-policy',
             // 'consuming-gcp-pub-sub',
             // 'building-a-slack-application',
             
