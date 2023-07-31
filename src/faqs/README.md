@@ -77,12 +77,12 @@ User control and access to graphs is handled on a Workspace basis.
 
 ___
 
-### How can I provide feedback or report bugs about NodeScript?
+<!-- ### How can I provide feedback or report bugs about NodeScript?
 
-You can email us at support@nodescript.com or fill in our **feedback form.**
+You can email us at support@ub.io or fill in our **feedback form.**
 
 ___
-
+-->
 ### Will NodeScript be directly integrated with other programming languages in the future?
 
 Nope.
