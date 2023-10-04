@@ -39,9 +39,32 @@ Datasets can also be added in the Input settings menu. This allows different val
 
 This way, you don't need to keep looking up and copying the coordinates for these places each time you want to check the sunset and sunrise times. You just switch between 'Dataset 1' for Lisbon and 'Dataset 2' for London, and the system uses the right coordinates automatically.
 
+## Output Nodes
+
+Output nodes are essential for the functionality and versatility of a graph within NodeScript. While each node within a graph can produce outputs, the designated output node plays a special role by acting as the final result or conclusion of the graph's entire logic. Think of the output node as the returned value in traditional functions. By producing a definitive result, it provides a clear endpoint or outcome from the interconnected series of operations performed by the graph's nodes.
+
+The presence of an output node also paves the way for a graph to be published and exposed as a module. By exposing this endpoint, the graph can be seamlessly integrated into other graphs, essentially allowing one graph to utilize the logic and functions of another. This modular approach elevates the power and flexibility of NodeScript, allowing for complex logics to be modularized, reused, and combined.
+
+**To publish a graph and make it available as a module for other graphs, an output node is mandatory.** 
+
+This requirement ensures that every module has a clear and consistent interface, which other graphs can reliably connect to and obtain results from.
+
+![Output Node](./images/nodes/output-node.png)
+
+The output node can be easily identified by the curvature of its edges and its yellow colour. To use the graph as a module in another graph, simply connect to the output node's socket, and you'll receive the computed results based on the graph's logic and any provided inputs.
 
 
+Remember, while many nodes display their output above the top right of the container, the designated output node stands as the ultimate result of the entire graph. It's the bridge that allows one graph to communicate its results to another, ensuring a smooth and efficient workflow within NodeScript.
 
 
+Note: For detailed guidelines on how to designate an output node and publish a graph as a module, refer to the [Modules](./modules.md) section.
+
+## Interactive with JSON results
+
+As mentioned, the result of a Node is displayed above the top right corner of the container itself. If this results is a JSON response, they are interative and can be individually selected in order to filter the data. 
+
+By opening the response and click dragging a value it will be added to the Request Node and an output connected will be available:
+
+![Interative Reults](./images/nodes/name-value.gif)
 
 

@@ -20,3 +20,12 @@ When we expose this as a _module_, a different graph can consume it like this:
 Now the complexity of the module ('return a + b:') is hidden and we only need to deal with the input and output, which can then be plugged into our own set of values.
 
 This functionality can be used to add hugely complex functionality into your graph as a single node.
+
+<!-- ## Publish module
+
+To publish a graph as a module select the "Publish" button from the top right of the cavnas. You will be provided with several options to create the endpoint:
+
+![Publishing](./images/modules/publishing.png)
+
+Selecting "Expose via HTTP" toggle will make the endpoint public an allow you to choose its method and URL.
+-->

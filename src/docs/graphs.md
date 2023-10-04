@@ -13,3 +13,32 @@ Graphs give you:
  - **Reusability** - a Graph can be published as a module, allowing its functionality to be used in other graphs.
  - **Shared Environments** - users share access to, and can work simultaniously on, graphs within the same workspace. 
  
+ ## Legend
+
+ Data type within a NodeScript graph are representing in the following colors:
+
+ * Gray - Any
+ * Green - String
+ * Yellow - Number
+ * Blue - Boolean
+ * Purple - Object 
+ * Pink - Array
+
+  ## Keyboard Shortcuts
+
+ * New node: Spacebar/Right Click
+ * Delete Node: Backspace
+ * Duplicate: Cmd + D
+ * Copy: Cmd + C
+ * Paste: Cmd + V
+ * Quick open file: Cmd + P
+ * Select all nodes: Cmd + A
+ 
+ <!--
+ * Run graph: CMD+Enter
+ * Hide results: CMD+E 
+ * Open Input: I
+ * Open output: O
+ * Open workspace Libraries : W
+ * Cmd + F: Searching existing nodes on the canvas
+ -->

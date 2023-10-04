@@ -1,10 +1,5 @@
 
 # Welcome to the NodeScript Beta
-## Where a bug can also be a feature...
-
-Dear users,
-
-As part of our selected group of testers, you're getting a first-hand look at NodeScript during its testing and development period. Remember, NodeScript is still a work in progress, and we're refining and improving it every day. That's where your help comes in! We highly encourage and appreciate any feedback.
 
 To get started, here is a quick look at what NodeScript can do:
 

@@ -62,6 +62,7 @@ module.exports = {
             'workspaces',
             'tutorials',
             'usecases',
+            'example-graphs',
           ]
         }
       ],
