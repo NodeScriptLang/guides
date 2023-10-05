@@ -12,6 +12,12 @@ There are two ways to publish an endpoint:
 
 ___
 
+### What is NodeScript?
+
+NodeScript is a platform designed to streamline workflow automation and API integration processes. It's a node-based visual programming language that lets users create flow-based graphs for various real-world scenarios.
+
+---
+
 ### What types of systems and services can NodeScript connect with?
 Any platform with HTTP API.
 
@@ -187,4 +193,74 @@ The output of a give node, or module, can be seen above its top right hand corne
 Attributes of a JSON object can also be instantly accessed via the click and drag function. Whereas with conventional coding, the data would need to be filtered and manipulated, with NodeScript this is a single click. 
 
 ![Instant data](./images/FAQs/instantinfo.gif)
+
+---
+
+### Do I need to install any software to use NodeScript?
+
+No, NodeScript requires no dependencies, configuration, or installation and runs directly in your browser.
+
+---
+
+### How do I sign in to NodeScript?
+
+You can sign in through GitHub authentication. Just click on the sign-in option on the landing page and authorize NodeScript to access your GitHub account.
+
+---
+
+### What is a node in NodeScript?
+
+Nodes are the fundamental building blocks of a graph in NodeScript. Comparable to functions, they perform specific logic based on their inputs to produce outputs. Nodes can be connected using sockets to form more complex logic flows.
+
+---
+
+### How are nodes categorized in NodeScript?
+
+Nodes in NodeScript are of two types - Standard Library nodes, which are fixed-function nodes provided by NodeScript, and Modules, which are essentially other graphs that can be called upon to perform their specific logic.
+
+---
+
+### What are modules in NodeScript?
+
+Modules in NodeScript allow users to call other graphs that perform their unique logic. Essentially, modules enable one graph to utilize the logic and functions of another, promoting a modular design approach.
+
+---
+
+### How do variables work in NodeScript?
+
+In NodeScript, variables are dynamic entities that can store data. They can be used to hold temporary data, define certain configurations, or be used as parameters in functions.
+
+---
+
+### How do I navigate the NodeScript dashboard?
+
+The dashboard provides an overview of the selected workspace. It has a three-container design: the left container displays workspace details, the center container shows content from the workspace navigation, and the right container provides detailed information on the selected item.
+
+---
+
+### Can I access multiple workspaces in NodeScript?
+
+Yes, you can choose from any available workspace you have access to using the dropdown menu on the dashboard.
+
+---
+
+
+### What is the significance of the home icon on the dashboard?
+
+The home icon in the top right of the dashboard allows you to return to or refresh the workspace.
+
+---
+
+
+### Why should I choose NodeScript over traditional coding?
+
+NodeScript offers real-time results, scalable speed, atomic (modular) design, instant work and deployment, automated API calls, and is accessible to developers of all skill levels.
+
+--- 
+
+### What kind of support or collaboration features does NodeScript offer for team projects?
+
+NodeScript provides a collaborative environment, allowing multiple users to work on projects simultaneously and share their workflows.
+
+---
 

@@ -29,4 +29,11 @@ The functionality and scope of your graph are entirely up to you. NodeScript off
 - Automated API calls - no more manual interventions
 - Accessibility - suitable for developers of all skill levels
 
-Lets dive into some of concepts and features you will find in NodeScript...
+### Quick Glossary: ###
+
+- **Graph**: A visual representation of a workflow or process, made up of interconnected nodes.
+- **Node**: The fundamental building blocks in a graph that execute specific tasks.
+- **Endpoint**: The URL or location where the graph's output can be accessed or triggered.
+- **Module**: A reusable graph or subset of nodes encapsulated as a single unit in NodeScript. Modules allow for the encapsulation of specific logic or functionality, making it easier to incorporate into larger workflows without redundancy.
+  
+
