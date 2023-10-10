@@ -19,6 +19,9 @@ There are two types of Nodes that you should understand the difference of:
 
 When you are editing a graph, press spacebar or right click to open a menu that shows all the nodes that you can add to the canvas. You can use the search function or scroll within the menu to find the node you'd like to add.
 
+### Resizing
+A node can be resized by moving the cursor to the edge of the container and click dragging it to the desired dimension. 
+
 ## Inputs and Outputs
 
 In the realm of NodeScript, two primary components drive the flow of data: Inputs and Outputs.
@@ -47,7 +50,7 @@ Our example above has two inputs, 'a' and 'b', with a value of 1 and 7 respectiv
 
 Input nodes are specialized nodes designed to serve as primary data entry points in a graph. Their role is to introduce data into the system, acting as a gateway for external information. When a graph is encapsulated as a module or when it's designed to be embedded within a larger system, input nodes become essential. 
 
-Visually, input nodes identified by their blue colors. They often lack the input sockets since their primary function is to introduce new data rather than process existing data. A new input node to the canvas it will inheret the values assigned in the Input Settings menu.
+Visually, input nodes identified by their blue colors. They often lack the input sockets since their primary function is to introduce new data rather than process existing data. A new input node to the canvas it will inherit the values assigned in the Input Settings menu.
 
 ![Input Node](./images/nodes/input-node.png)
 
@@ -92,10 +95,42 @@ Note: For detailed guidelines on how to designate an output node and publish a g
 
 ## Interacting with JSON results
 
-As mentioned, the result of a node is displayed above the top right corner of the container itself. If this result is a JSON response, they are interative and can be individually selected in order to filter the data. 
+**Result Display on Nodes**
+In our platform, nodes aren't just passive entities; they actively display results, enhancing user interaction and feedback. When a node processes data or makes a request, the outcome is conveniently displayed above its top right corner. This feature ensures that users can immediately see the outcome without navigating away from the node itself.
 
-By opening the response and click-dragging a value it will be added to the Request Node and an output connected will be available:
+**Interacting with JSON Responses**
+For nodes that yield JSON responses:
+
+1. **Interactive JSON**: Unlike static display formats, JSON results on our platform are fully interactive. Each key-value pair, array item, or nested object in the JSON can be individually engaged.
+ 
+2. **Data Filtering**: If you're dealing with extensive JSON data and are interested in specific items, you don't have to comb through the entire result. Simply click on the desired value or section within the interactive JSON display. The system highlights your selection, allowing for focused analysis.
 
 ![Interative Reults](./images/nodes/name-value.gif)
 
+**Enhancing Requests with Data Selection**
 
+1. **Incorporating JSON Values into Requests**: Once you've made a selection within the JSON result, the platform offers a unique drag-and-drop feature. You can open the response, then click-drag a specific value or item from the JSON.
+
+2. **Populating the Request Node**: By dragging the selected value, move it towards the 'Request Node' on your canvas. As you release your selection, NodeScript will automatically integrate the selected value to request node and creating an output connector.
+
+## Subgraphs
+
+Subgraphs allow you to encapsulate or group multiple interconnected nodes into a single, unified node for the sake of clarity, organization, and efficiency. 
+
+To create a Subgraph, select the all the nodes you wish to include, either via click drag or my holding CMD/Ctrl and clicking on each one, then right click and select "Convert to subgraph" from the menu.
+
+![Subgraph](./images/nodes/subgraph.gif)
+
+Upon confirming the action, the selected nodes and their interconnections will be merged and represented as a single, distinct node, now referred to as a 'Subgraph'.
+
+### **Benefits of Using Subgraphs**:
+
+- **Clarity**: Subgraphs help reduce visual clutter by encapsulating multiple nodes into one, making the primary graph more readable and navigable.
+  
+- **Modularity**: With subgraphs, specific functionalities or processes can be isolated, making it easier to replicate, move, or modify them as a singular unit.
+
+- **Reusability**: Once defined, subgraphs can potentially be used in multiple places within the main graph or even across different projects, promoting a modular design approach.
+
+- **Error Isolation**: If there's an issue within a subgraph, it's contained, preventing it from directly affecting the larger graph and making troubleshooting more efficient.
+
+Using subgraphs can drastically improve the efficiency and organization of your workflow, ensuring that even the most complex processes remain manageable and understandable.
