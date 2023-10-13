@@ -26,22 +26,27 @@ Graphs give you:
 
   ## Keyboard Shortcuts
 
- * New node: Spacebar/Right Click
+![Keyboard Shortcuts](./images/graphs/shortcuts.png)
+
+ <!-- 
+ * Create node: Spacebar/Right Click
  * Delete Node: Backspace
  * Duplicate: Cmd + D
  * Copy: Cmd/Ctrl + C
  * Paste: Cmd/Ctrl + V
- * Quick open file: Cmd/Ctrl + P
  * Select all nodes: Cmd/Ctrl + A
- 
- <!--
- * Run graph: CMD+Enter
- * Hide results: CMD+E 
+ * Create frame: F
+ * Create comment: C
+ * Hide results: CMD/Ctrl + H
  * Open Input: I
  * Open output: O
- * Open workspace Libraries : W
- * Cmd + F: Searching existing nodes on the canvas
- -->
+ * Open library: W
+ * Undo: CMD/Ctrl Z
+ * Redo: CMD/Ctrl + Shift + Z
+ * Zoom in: CMD/Ctrl + +
+ * Zoom out: CMD/Ctrl + -
+ * Zoom reset: CMD/Ctrl + 0
+-->
 
 ## Frames
 Frames serve as an additional layer of organization for managing multiple nodes simultaneously. Think of a frame as a flexible boundary that binds together a collection of nodes. When you group nodes into a frame, they effectively behave as a single unit, streamlining various operations and visualizations.
