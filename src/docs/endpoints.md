@@ -4,6 +4,8 @@ Endpoints allow your graph to be executed by the outside world. They are the key
 
 When you publish an endpoint, it becomes available immediately. We host the code and make it available on the internet for you, similar to AWS Lambda or Google Cloud Run, but without the mess, complicated management and... the need to write code!
 
+![Endpoints](./images/endpoints/endpoints.png)
+
 There are two ways to publish an endpoint:
 
  - From your Graph - when you publish a graph, you will be given the option to expose it via HTTP and select a method and URL.
