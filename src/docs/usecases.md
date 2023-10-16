@@ -1,4 +1,4 @@
-# Use Case Examples
+# Use case examples
 
 In this section we have provided some examples of ways you use NodeScript, some problems its great at solving and some ideas you can use to spark your creativity. 
 

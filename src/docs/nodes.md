@@ -19,8 +19,14 @@ There are two types of Nodes that you should understand the difference of:
 
 When you are editing a graph, press spacebar or right click to open a menu that shows all the nodes that you can add to the canvas. You can use the search function or scroll within the menu to find the node you'd like to add.
 
+![Node functions](./images/nodes/node_func.gif)
+
 ### Resizing
 A node can be resized by moving the cursor to the edge of the container and click dragging it to the desired dimension. 
+
+### Items
+Items can be added to or removed from certain Node types by clicking the "+" or "x" icon respectively from the right hand side of the container. 
+Items can also be re-ordered via the arrows to the right of each item (see gif above).
 
 ## Inputs and Outputs
 
