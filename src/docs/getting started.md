@@ -4,10 +4,11 @@ In this section, we'll explore the platform's layout and how to navigate the das
 
 ## Sign in
 
-All we need is your email address, which we'll get through GitHub authentication.
+All we need is your email address, which we'll get through GitHub or Google authentication.
 
-To sign in through GitHub, just click on the option in the top right corner of the landing page and authorize NodeScript to access your GitHub account.
+To sign in through either of these platforms, just click on the option in the top right corner of the landing page and authorize NodeScript to access your GitHub account. 
 
+NodeScript only access your email address and no other information from you chosen account.
 
 ## Dashboard
 

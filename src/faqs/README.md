@@ -19,6 +19,7 @@ NodeScript is a platform designed to streamline workflow automation and API inte
 ---
 
 ### What types of systems and services can NodeScript connect with?
+
 Any platform with HTTP API.
 
 NodeScript can also connect to databases that have a HTTP interface.
@@ -204,7 +205,7 @@ No, NodeScript requires no dependencies, configuration, or installation and runs
 
 ### How do I sign in to NodeScript?
 
-You can sign in through GitHub authentication. Just click on the sign-in option on the landing page and authorize NodeScript to access your GitHub account.
+You can sign in through GitHub of Google authentication. Just click on the sign-in option on the landing page and authorize NodeScript to access your email address. 
 
 ---
 
