@@ -30,7 +30,7 @@ To get started, here is a quick look at what NodeScript can do:
 </style>
 
 <figure class="video_container">
-  <iframe src="https://drive.google.com/file/d/1NjlDH_5YYIuSacKPsxOTyrbjMSGPrC_y/view?usp=sharing" frameborder="0" allowfullscreen="true"></iframe>
+  <iframe src="https://drive.google.com/file/d/1NjlDH_5YYIuSacKPsxOTyrbjMSGPrC_y/preview" frameborder="0" allowfullscreen="true"></iframe>
 </figure>
 
 
