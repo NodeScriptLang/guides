@@ -1,7 +1,6 @@
-name: CI
+name: CD
 
 on:
-  workflow_dispatch:
   push:
     tags:
       - "*"
@@ -10,18 +9,24 @@ jobs:
   build:
     uses: ubio/github-actions/.github/workflows/ci-build.yaml@master
     with:
-      name: nodescript-guides
+      name: NodeScript Guides
       image: gcr.io/automation-cloud-registry/nodescript-guides
       ref: ${{ github.ref }}
+      file: Dockerfile
     secrets:
       REGISTRY_SECRET: ${{ secrets.GCP_REGISTRY_ACCESS }}
       SLACK_TOKEN: ${{ secrets.SLACK_TOKEN }}
       SLACK_CHANNEL: ${{ secrets.SLACK_CHANNEL }}
 
-  deploy:
+  deploy-production:
     needs: build
-    uses: ubio/github-actions/.github/workflows/cd-dispatch.yaml@master
+    uses: ubio/github-actions/.github/workflows/cd-dispatch-deploy.yaml@master
     with:
-      event_name: built-nodescript-guides
+      gh_user: NodeScriptLang
+      gh_repo: infrastructure
+      image_name: nodescript-guides
+      env_name: production
+      app_path: apps/guides
+      auto_merge: false
     secrets:
       ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
