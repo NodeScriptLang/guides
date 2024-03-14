@@ -8,7 +8,7 @@ To create a new workspace, in the sidebar, select the drop down for the workspac
 
 It's easy to add your friends (or colleagues) to your workspace in NodeScript. It's only tricky when they don't already have an account - but they can sort that out easily; they just need to sign up.
 
-Use the Workspace menu to access your workspace `Settings`, click through to `Members`, press `Add Member` and enter their username. At the moment, this is their GitHub handle (because, currently, this is the only way to sign in), but we will add more ways to authenticate in the future.
+Use the Workspace menu to access your workspace `Settings`, click through to `Members`, press `Add Member` and enter their username. 
 
 ## Creating and managing endpoints
 

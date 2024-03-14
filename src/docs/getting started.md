@@ -6,9 +6,15 @@ In this section, we'll explore the platform's layout and how to navigate the das
 
 All we need is your email address, which we'll get through GitHub or Google authentication.
 
-To sign in through either of these platforms, just click on the option in the top right corner of the landing page and authorize NodeScript to access your GitHub account. 
+To sign in through either of these platforms, just click on the option from the login page and authorize NodeScript to access your account. 
 
-NodeScript only access your email address and no other information from you chosen account.
+Only your email will be collected.
+
+### Magic Link
+
+Magic Link sign in also available. Enter your email and select the "Sign in with Magic Link" button on the login page to send an email containing a unique link for you to login with. This link will be be valid for 1 hour after sending. 
+
+This passwordless process must be repeat on each sign in.
 
 ## Dashboard
 
