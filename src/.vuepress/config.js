@@ -57,6 +57,7 @@ module.exports = {
             'graphs',
             'nodes',
             'modules',
+            'schedules',
             'endpoints',
             'variables',
             'workspaces',

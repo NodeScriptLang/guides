@@ -12,7 +12,7 @@ Only your email will be collected.
 
 ### Magic Link
 
-Magic Link sign in also available. Enter your email and select the "Sign in with Magic Link" button on the login page to send an email containing a unique link for you to login with. This link will be be valid for 1 hour after sending. 
+Magic Link sign in also available. Enter your email and click the "Sign in with Magic Link" button on the login page to send an email containing a unique link for you to login with. This link will be valid for 1 hour after sending. 
 
 This passwordless process must be repeat on each sign in.
 

@@ -104,17 +104,8 @@ ___
 
 ### Can I schedule my NodeScript graphs to run at specific times?
 
-You can use off-the-shelf solutions like [GCP Cloud Scheduler](https://cloud.google.com/scheduler) or [Azure Scheduler](https://azure.microsoft.com/en-us/pricing/details/scheduler/) that will call your endpoints on schedule.
+Yes, there is a "Schedules" tab in the sidebar that will allow you to set up new actions. Select "Add new schedule" and select what to run and when you want to run it.
 
-We will also be adding first class support for triggers in the coming months.
-
-___
-
-### How do I manage user permissions in NodeScript?
-
-We will be adding users rights and management options to NodeScript soon.
-
-An admin level user can manage the access level of users within their team.
 ___
 <!--
 ### How can I track the execution and performance of my graphs in NodeScript?
@@ -205,7 +196,11 @@ No, NodeScript requires no dependencies, configuration, or installation and runs
 
 ### How do I sign in to NodeScript?
 
-You can sign in through GitHub of Google authentication. Just click on the sign-in option on the landing page and authorize NodeScript to access your email address. 
+You can sign in through GitHub or Google authentication. Just click on the sign-in option on the landing page and authorize NodeScript to access your email address. 
+
+Alternatively, you can sign in with a Magic Link. Enter your email and click the "Sign in with Magic Link" button on the login page to send an email containing a unique link for you to login with. This link will be valid for 1 hour after sending. 
+
+This passwordless process must be repeat on each sign in.
 
 ---
 
@@ -264,4 +259,14 @@ NodeScript offers real-time results, scalable speed, atomic (modular) design, in
 NodeScript provides a collaborative environment, allowing multiple users to work on projects simultaneously and share their workflows.
 
 ---
+
+## How do I request a new feature or report a bug?
+
+To request a new feature or report a bug, you can use our support email address support@nodescript.dev. Our team reviews all feedback to continuously improve NodeScript.
+
+---
+
+## Is there a limit to the number of workspaces I can create or join?
+
+There's no set limit to the number of workspaces you can create or join in NodeScript. This flexibility allows you to organize your projects and collaborations efficiently, depending on your workflow and team size.
 
