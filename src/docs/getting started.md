@@ -25,11 +25,16 @@ For example, when you click on Graphs in the Workspace navigation (3), a list of
 ![Dashboard navigation](./images/getting-started/dashboard.png)
 
 **Dashboard elements:**
-- 1 - Current workspace: Displays details and options related to the selected workspace
-- 2 - Workspace selection menu: A dropdown menu featuring all workspaces you have access to
-- 3 - Workspace navigation: Provides menu options and settings for the active workspace
-- 4 - Center container: Shows the content related to the selected option from the workspace navigation menu (3)
-- 5 - Right container: Displays information and data for the item currently selected in the center container (4)
-- 6 - Home: Click the icon in the top right to return to or refresh the workspace
-- 7 - User settings: Offers sign-out and profile options
+- 1 - Home: Click the icon in the top right to return to or refresh the workspace.
+- 2 - Organisation selection: A dropdown of all the organizations you have access to.
+- 3 - Organisation settings: Edit the name, members, workspaces and billing information of the organization.
+- 4 - Workspace selection menu: A dropdown menu featuring all workspaces you have access to within the selected organization.
+- 5 - Workspace navigation: Lists the pages and features within this workspace.
+- 6 - Center container: Shows the content related to the selected option from the workspace navigation menu (5)
+- 7 - List items: Most pages are lists (Graphs, endpoints, Variables etc) click on an item to open it or right click to view the action menu.
+- 8 - Notifications: Alerts and news from all areas of NodeScript that concern you and your content.
+- 9 - User settings: Offers sign-out and profile options
+- 10 - Right container: Displays information and data for the item currently selected in the center container (6)
+
+
 
