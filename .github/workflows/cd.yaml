@@ -27,6 +27,6 @@ jobs:
       image_name: nodescript-guides
       env_name: production
       app_path: apps/guides
-      auto_merge: false
+      auto_merge: true
     secrets:
       ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
