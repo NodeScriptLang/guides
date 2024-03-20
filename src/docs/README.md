@@ -1,19 +1,12 @@
 # Introduction
 
-Welcome to NodeScript, a platform designed to streamline workflow automation and API integration processes. With NodeScript, you can effortlessly connect APIs and online services without the need for extensive coding knowledge.
+Welcome to NodeScript! We're here to help you automate workflows and integrate APIs easier than ever before. Think of NodeScript as your go-to for connecting APIs and online services without needing to dive deep into coding.
 
-The visual interface allows you to easily design, manage, and maintain complex workflows that can be shared and collaborated on across teams. NodeScript aims to simplify intergrarion and automation process, making it more efficient and accessible for all users.
-
-Here are a few key points we want you to keep in mind during this period:
-* **Executing graphs in the editor is absolutely free:** Feel free to execute your graph as many times as you like while building and testing.
-* **Rate Limits:** During this testing period, each workspace is limited to 1000 endpoint invocations per hour. Please note that our rate limits may be subject to change while we fine-tune our system to provide the best performance while maintaining stability.
-* **Negotiable Limits:** We understand that the needs of every user are different. If you find yourself needing a higher rate limit, please let us know. We're open to discussion and will do our best to accommodate your needs.
-* **Be Creative:** Test the limits and capabilities of the toolset. Use NodeScript to improve an existing project, solve a problem you've been sitting on, or build something totally new.
-
+Our interface is pretty straightforward, so you can set up, tweak, and keep an eye on your workflows without hassle. Its collaborative, always running and requires no set up. We're all about making integration and automation as simple and user-friendly as possible.
 
 ## How does it work?
 
-At its core, NodeScript is a node-based visual programming language that enables users to create flow-based [graphs](./graphs.md), which can then be executed in real-world scenarios through an [endpoint](./endpoints.md).
+At its core, NodeScript is a node-based visual programming language that enables users to create flow-based [graphs](./graphs.md), which can then be executed in real-world scenarios through an [endpoint](./endpoints.md). Here is a quick intro video to show you the basics:
 
 <style>
   .video_container {
@@ -44,6 +37,12 @@ At its core, NodeScript is a node-based visual programming language that enables
 </figure>
 
 The functionality and scope of your graph are entirely up to you. NodeScript offers an infinitely scalable canvas that can accommodate as many [nodes](nodes.md) as you need!
+
+The power of NodeScript comes from a few key features. Firstly, the ability to see the result of your node structure as you are building it - The results are displayed above the nodes you can see the data you are getting and adjust and iterate as you go. Our aim is to remove any unknowns in your development process and allow you to build quickly.
+
+Next is the ability to publish a graph as a module and then call in into other graphs. This allows you to pack huge amounts of complexity into just a few node connections. Along with the ability to deploy HTTP endpoints, webhooks, or scheduled tasks directly within these graphs, this creates powerful and reusable workflows in a very simple interface.
+
+Finally the fact that you can build these graphs of scaling complexity and expose them an endpoint without any dev ops or environment set up. Its a far more powerful tool set than a standard integration platform, you just have to know how to use it.
 
 ### Key Features & Capabilities: ###
 

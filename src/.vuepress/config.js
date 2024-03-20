@@ -54,14 +54,14 @@ module.exports = {
           children: [
             '',
             'getting started',
+            'organisations',
+            'workspaces',
             'graphs',
             'nodes',
             'modules',
             'schedules',
             'endpoints',
             'variables',
-            'workspaces',
-            'tutorials',
             'usecases',
             'example-graphs',
           ]

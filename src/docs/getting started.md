@@ -6,9 +6,9 @@ In this section, we'll explore the platform's layout and how to navigate the das
 
 All we need is your email address, which we'll get through GitHub or Google authentication.
 
-To sign in through either of these platforms, just click on the option from the login page and authorize NodeScript to access your account. 
+To sign in through either of these platforms, just click on the option from the login page and authorize NodeScript to access your account. Only your email will be collected.
 
-Only your email will be collected.
+Upon your first signin to NodeScript you will be asked to choose a display name and assign your [organisation](./organisations.md) type, this can be changed at any time in user settings.
 
 ### Magic Link
 
@@ -34,7 +34,29 @@ For example, when you click on Graphs in the Workspace navigation (3), a list of
 - 7 - List items: Most pages are lists (Graphs, endpoints, Variables etc) click on an item to open it or right click to view the action menu.
 - 8 - Notifications: Alerts and news from all areas of NodeScript that concern you and your content.
 - 9 - User settings: Offers sign-out and profile options
-- 10 - Right container: Displays information and data for the item currently selected in the center container (6)
+- 10 - Right container: Displays information and data for the item currently selected in the center container (6) 
+
+## Notifications 🔔
+
+NodeScript provides a notification system to inform you about important events. Notifications are categorized by their urgency and type: warn, alert, and info. 
+
+They appear in the top right of the nav bar, and are accessible via a bell icon. Users can resolve or dismiss notifications based on their type.
+
+### Notification Categories 
+
+<code style="color : blue">**Info**: Blue. Provides updates on new features or messages from the development team.</code>
+
+<code style="color : orange">**Alert**: Orange. Signals the need for immediate action or acknowledgment. Example: system errors.</code>
+
+<code style="color : red">**Warn**: Red. Indicates general updates or changes. Example: minor system updates.</code>
+
+![Notifications](./images/getting-started/notification.png)
+
+### Examples
+- Info: "New feature X has been released."
+- Alert: "The schedule was auto-disabled due to consecutive errors."
+- Warn: "Publishing has finished successfully."
+
 
 
 
