@@ -47,6 +47,17 @@ module.exports = {
       }
     ],
     sidebar: {
+      '/guide/': [
+        {
+          title: 'Guide',
+          collapsable: false,
+          children: [
+            '',
+            'tutorial',
+            'technical-overview',
+          ]
+        }
+      ],
       '/docs/': [
         {
           title: 'NodeScript',
@@ -77,7 +88,7 @@ module.exports = {
             'privacy-policy',
             // 'consuming-gcp-pub-sub',
             // 'building-a-slack-application',
-            
+
           ]
         }
       ],
