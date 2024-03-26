@@ -32,6 +32,7 @@ module.exports = {
     docsDir: '',
     editLinkText: '',
     lastUpdated: false,
+    displayAllHeaders: true,
     nav: [
       {
         text: 'Docs',
@@ -51,11 +52,20 @@ module.exports = {
         {
           title: 'Guide',
           collapsable: false,
-          sidebarDepth: 2,
+          path: '/guide',
+          sidebarDepth: 1,
           children: [
             '',
-            'tutorial',
-            'technical-overview',
+          ]
+        },
+        {
+          title: 'Tutorials',
+          collapsable: false,
+          sidebarDepth: 1,
+          children: [
+            'tutorials/about',
+            'tutorials/json-essentials',
+            'tutorials/working-with-lists',
           ]
         }
       ],
