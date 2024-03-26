@@ -10,5 +10,12 @@ export default ({
   router, // the router instance for the app
   siteData // site metadata
 }) => {
-  // ...apply enhancements for the site.
+
+}
+
+function setIframeScrolling(enabled) {
+  const iframes = document.querySelectorAll('iframe');
+  [].forEach.call(iframes, el => {
+    el.style.pointerEvents = enabled ? undefined : 'none';
+  })
 }

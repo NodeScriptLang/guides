@@ -1,8 +1,98 @@
-/**
- * Custom Styles here.
- *
- * ref：https://v1.vuepress.vuejs.org/config/#index-styl
- */
+:root {
 
-.home .hero img
-  max-width 450px!important
+  --sp: 8px;
+  --sp2: calc(2 * var(--sp));
+  --sp3: calc(3 * var(--sp));
+  --sp4: calc(4 * var(--sp));
+  --sp5: calc(5 * var(--sp));
+  --sp6: calc(6 * var(--sp));
+  --sp7: calc(7 * var(--sp));
+  --sp8: calc(8 * var(--sp));
+  --sp12: calc(12 * var(--sp));
+  --sp16: calc(16 * var(--sp));
+  --sp24: calc(24 * var(--sp));
+  --sp32: calc(32 * var(--sp));
+  --sphalf: calc(0.5 * var(--sp));
+
+  --color-type-any: var(--color-base-3);
+  --color-type-any-alt: var(--color-text-3);
+  --color-type-null: var(--color-base-3);
+  --color-type-null-alt: var(--color-text-3);
+  --color-type-number: hsl(48deg, 80%, 60%);
+  --color-type-number-alt: hsl(48deg, 100%, 40%);
+  --color-type-integer: hsl(48deg, 80%, 60%);
+  --color-type-integer-alt: hsl(48deg, 100%, 40%);
+  --color-type-string: hsl(132deg, 50%, 70%);
+  --color-type-string-alt: hsl(132deg, 40%, 50%);
+  --color-type-boolean: hsl(192deg, 60%, 70%);
+  --color-type-boolean-alt: hsl(192deg, 60%, 50%);
+  --color-type-object: hsl(264deg, 60%, 80%);
+  --color-type-object-alt: hsl(264deg, 40%, 65%);
+  --color-type-array: hsl(320deg, 60%, 70%);
+  --color-type-array-alt: hsl(320deg, 60%, 60%);
+
+  --color-base-0: hsl(200deg, 10%, 100%);
+  --color-base-1: hsl(200deg, 10%, 96%);
+  --color-base-2: hsl(200deg, 10%, 92%);
+  --color-base-3: hsl(200deg, 10%, 85%);
+
+  --color-text-0: hsl(200deg, 10%, 20%);
+  --color-text-1: hsl(200deg, 10%, 40%);
+  --color-text-2: hsl(200deg, 10%, 55%);
+  --color-text-3: hsl(200deg, 10%, 68%);
+
+  --color-highlight-0: hsl(48deg, 90%, 90%);
+  --color-highlight-1: hsl(48deg, 90%, 75%);
+  --color-highlight-2: hsl(48deg, 90%, 60%);
+  --color-highlight-3: hsl(48deg, 90%, 45%);
+
+  --color-focus-0: hsl(210deg, 75%, 95%);
+  --color-focus-1: hsl(210deg, 75%, 85%);
+  --color-focus-2: hsl(210deg, 75%, 75%);
+  --color-focus-3: hsl(210deg, 75%, 65%);
+
+  --color-success-0: hsl(120deg, 50%, 90%);
+  --color-success-1: hsl(120deg, 50%, 75%);
+  --color-success-2: hsl(120deg, 50%, 50%);
+  --color-success-3: hsl(120deg, 50%, 40%);
+
+  --color-danger-0: hsl(0deg, 75%, 90%);
+  --color-danger-1: hsl(0deg, 75%, 70%);
+  --color-danger-2: hsl(0deg, 75%, 60%);
+  --color-danger-3: hsl(0deg, 75%, 50%);
+}
+
+html.dark {
+    --color-base-0: hsl(200deg, 15%, 20%);
+    --color-base-1: hsl(200deg, 15%, 26%);
+    --color-base-2: hsl(200deg, 15%, 32%);
+    --color-base-3: hsl(200deg, 15%, 40%);
+
+    --color-text-0: hsl(200deg, 15%, 85%);
+    --color-text-1: hsl(200deg, 15%, 75%);
+    --color-text-2: hsl(200deg, 15%, 60%);
+    --color-text-3: hsl(200deg, 15%, 50%);
+
+    --color-highlight-0: hsl(48deg, 50%, 30%);
+    --color-highlight-1: hsl(48deg, 50%, 40%);
+    --color-highlight-2: hsl(48deg, 50%, 50%);
+    --color-highlight-3: hsl(48deg, 50%, 60%);
+
+    --color-focus-0: hsl(210deg, 40%, 25%);
+    --color-focus-1: hsl(210deg, 40%, 35%);
+    --color-focus-2: hsl(210deg, 40%, 45%);
+    --color-focus-3: hsl(210deg, 40%, 55%);
+}
+
+.home .hero img {
+  max-width: 450px;
+}
+
+.sidenote {
+  padding: 16px;
+  background: var(--color-base-1);
+}
+
+.theme-container.page-wide .theme-default-content {
+  max-width: 1024px;
+}

@@ -51,6 +51,7 @@ module.exports = {
         {
           title: 'Guide',
           collapsable: false,
+          sidebarDepth: 2,
           children: [
             '',
             'tutorial',

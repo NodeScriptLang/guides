@@ -14,7 +14,7 @@ With NodeScript you can:
 
 Here is a minimal example:
 
-<iframe width="100%" height="512" src="https://embed.nodescript.dev/?graphId=19OmbEFN9CY4oEQ6&theme=auto&scrolling=false" title="Hello World" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="512" src="https://embed.nodescript.dev/?graphId=19OmbEFN9CY4oEQ6&theme=auto" title="Hello World" frameborder="0" allowfullscreen></iframe>
 
 The above example, while contrieved, demonstrates a few important aspects of NodeScript:
 
