@@ -64,7 +64,7 @@ module.exports = {
           collapsable: false,
           sidebarDepth: 1,
           children: [
-            'tutorials/about',
+            'tutorials/',
             'tutorials/json-essentials',
             'tutorials/working-with-lists',
           ]

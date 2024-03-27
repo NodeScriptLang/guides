@@ -60,3 +60,9 @@ Let's go through this graph step by step.
 Sorting and grouping are the two very common operations on the lists of objects. In NodeScript those are trivial and don't require much explanation (assuming you've followed us so far).
 
  <iframe width="100%" height="640" src="https://embed.nodescript.dev/?graphId=37tCV8Xh1FqXI3jb&theme=auto&zoom=.8" title="Sort 2" frameborder="0" allowfullscreen></iframe>
+
+**Assignments:**
+
+- Try changing `key` in Array / Group By Key from `role` to `gender`. Observe how both the number of groups and the contents of each group change.
+
+- Try sorting the users by their date of birth.
