@@ -26,6 +26,10 @@ You may already have questions — do not worry, we will cover all the details i
 
 ## Key features
 
+- **Composability.** The power of NodeScript comes from being able to compose complex functionality from simpler building blocks. Once you build a graph that solves a particular problem, you can publish it as a module to use in your other graphs.
+
+- **Instant feedback.** Being able to see what data flows in and out of the nodes reduces the feedback loop and facilitates the thought process by engaging the creative part of the brain. In practice this means you will be able to quickly come up with the ideas and instantly validate them.
+
 - **Open source.** At its core NodeScript is an [open source](https://github.com/nodeScriptLang/core) visual programming language. The modules you build remain _yours forever_: you can easily download the compiled versions of any of your graphs and run them in your own runtime. Read more about this in the [Technical Overview](./technical-overview.md).
 
 - **Free to run in your browser.** When you edit the graphs they are compiled and evaluated directly in your browser's runtime. As a team, we are committed to keep the editor environment free of charge.
