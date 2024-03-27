@@ -47,7 +47,7 @@ Well, that was pretty easy. How about we crank it up a notch and do something sl
 
 Let's go through this graph step by step.
 
-1. We calculate the length of each string (expanded String / Length).
+1. We calculate the length of each string (String / Length, applied to each word).
 
 2. This gives us an array of number, so we use that to calculate the mean (average), which is 7.7 in our case.
 
@@ -55,26 +55,8 @@ Let's go through this graph step by step.
 
 4. Finally, we plug these conditions and the original array into the Filter node.
 
-## Sorting
+## Sorting & Grouping
 
-Sorting a simple list is trivial and doesn't require much explanation (assuming you've followed us so far).
+Sorting and grouping are the two very common operations on the lists of objects. In NodeScript those are trivial and don't require much explanation (assuming you've followed us so far).
 
-<iframe width="100%" height="640" src="https://embed.nodescript.dev/?graphId=a0E43bxjuAfSpEPa&theme=auto&zoom=.8" title="Sort 1" frameborder="0" allowfullscreen></iframe>
-
-Sort By Key also works with arrays of objects, in which case the `key` needs to be specified.
-
-<iframe width="100%" height="640" src="https://embed.nodescript.dev/?graphId=37tCV8Xh1FqXI3jb&theme=auto&zoom=.8" title="Sort 2" frameborder="0" allowfullscreen></iframe>
-
-<p class="sidenote">
-<strong>Note</strong><br/>
-In the above example we've used a custom node called Sample / Users.
-There is nothing "special" about it: in NodeScript every graph can be published as a module that can be used as a node in other graphs (within the same workspace).
-</p>
-
-## Grouping
-
-Using the same dataset of fictional users, let's group them by `role`.
-
-<iframe width="100%" height="640" src="https://embed.nodescript.dev/?graphId=katzvp2J1vFDVsU4&theme=auto&zoom=.8" title="Group" frameborder="0" allowfullscreen></iframe>
-
-If you expand the result of group, you will find three groups — one for each of the three roles.
+ <iframe width="100%" height="640" src="https://embed.nodescript.dev/?graphId=37tCV8Xh1FqXI3jb&theme=auto&zoom=.8" title="Sort 2" frameborder="0" allowfullscreen></iframe>

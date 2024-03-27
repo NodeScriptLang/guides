@@ -56,6 +56,7 @@ module.exports = {
           sidebarDepth: 1,
           children: [
             '',
+            'quick-start'
           ]
         },
         {
