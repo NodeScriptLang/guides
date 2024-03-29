@@ -48,15 +48,15 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/guide/': [
+      '/docs/': [
         {
-          title: 'Guide',
+          title: 'Getting Started',
           collapsable: false,
-          path: '/guide',
+          path: '/docs/',
           sidebarDepth: 1,
           children: [
             '',
-            'quick-start'
+            'quick-start',
           ]
         },
         {
@@ -68,9 +68,18 @@ module.exports = {
             'tutorials/json-essentials',
             'tutorials/working-with-lists',
           ]
+        },
+        {
+          title: 'Guide',
+          collapsable: false,
+          sidebarDepth: 1,
+          children: [
+            'guide/graph-anatomy',
+            'guide/naming-conventions',
+          ]
         }
       ],
-      '/docs/': [
+      '/_docs/': [
         {
           title: 'NodeScript',
           collapsable: false,
