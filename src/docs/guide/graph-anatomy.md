@@ -12,13 +12,30 @@ The core premise of node-based visual programming is: each node does one specifi
     <img src="../images/node-io.png" width="400">
 </figure>
 
-### Modules
+## Modules
 
 Every node is powered by a specific _module_. A module dictates which inputs are supported and how is output calculated.
 
 One simple way of thinking of those is: modules are functions, and each node is a function call with specific arguments.
 
-### User Interface
+There are two types of modules:
+
+- published graphs automatically become modules accessible within the same workspace
+- native EcmaScript modules written in TypeScript
+
+<p class="note">
+You can check out the source of Standard Library modules <a href="https://github.com/NodeScriptLang/stdlib/tree/main/src/nodes" target="_blank">on GitHub</a>.
+</p>
+
+### Module names
+
+Most module use [structured naming](./naming-conventions.md), the path components are delimited with a forward slash (`/`).
+
+<p class="note">
+In Graph Lists view names delimited with <code>/</code> automatically become folders.
+</p>
+
+## Node UI
 
 Select a node to access all its features.
 
@@ -70,7 +87,7 @@ Graph inputs have the following purpose, depending on how the graph is used:
 
 ### Input Settings
 
-The inputs are configured using **Input Settings** menu.
+The inputs are configured using the **Input Settings** menu.
 
 ![](../images/inputs.gif)
 
@@ -110,7 +127,30 @@ Once configured, the corresponding Input nodes can be added to the graph to acce
 
 There are two types of input nodes that can be used interchangeably:
 
-- Arrow-shaped nodes that access individual inputs.
+- Arrow-shaped nodes that access the value of an individual input.
 - The Inputs node that provides access to all inputs at once.
 
-## Outputs
+## Variables
+
+Variables are a special kind of inputs. They are managed on the workspace level, enabling multiple graphs to share the same data. Sensitive variables are **encrypted at rest**.
+
+Variables are **never shared outside of the workspace**. Thus a graph that uses a variable can be published and used by other workspaces, but those workspaces would have to provide their own data to use as variables, because variable values are inaccessible outside of their workspace.
+
+Variables are also automatically filled when the graph is exposed as an endpoint or a schedule.
+
+<p class="note">
+<strong>Security note:</strong> encryption at rest means the environment values are stored securely in NodeScript database. However, the editor will still need the original unencrypted values in order to function properly. Thus any user with access to your workspace techincally has access to your secrets.<br/>
+Please keep this in mind when designing your systems and take extra steps to secure your secrets as and when necessary.
+</p>
+
+## Output
+
+The Output node captures the result that the graph produces when used as a module or an endpoint.
+
+<p class="note">
+There can be at most one Output node in a graph.
+</p>
+
+![](../images/output.png)
+
+The schema of the output is configured in the Output Settings menu. Here you can specify the schema settings of the output value, in a similar way to input schema settings.

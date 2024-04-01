@@ -43,7 +43,7 @@ The same works in reverse: <code style="color: var(--color-type-string-alt)">"42
 
 Obviously, not all the strings can be converted to number, so the value <code style="color: var(--color-type-string-alt)">"Not a number"</code> produced an error when plugged into a Number node.
 
-<p class="sidenote">
+<p class="note">
 Since each node knows what data type it expects, most of the times explicit type conversion is not required. However, in some cases it might be necessary (for example, some APIs may do a strict data type checks).
 </p>
 
