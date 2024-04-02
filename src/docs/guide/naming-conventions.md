@@ -17,13 +17,13 @@ NodeScript uses the following set of rules for Standard Library. It is strongly 
 
 - Use capitalized English words separated by a single space.
 
-- Use forward slash `/` to denote namespaces or categories.
+- Use forward slash `/` to denote namespaces and sub-categories.
 
     <p class="note">
     Path components delimited with <code>/</code> automatically become folders in Graphs List view.
     </p>
 
-- Use at least two path components for naming modules.
+- Use structured naming with at least two path components for naming modules.
 
 - Public modules should always include a namespace describing the domain the module belongs to (e.g. `GitHub / ` for describing GitHub-related module).
 
@@ -75,4 +75,4 @@ NodeScript uses the following set of rules for Standard Library. It is strongly 
     - `mySecretUsername`
     - `my_secret_password`
 
-- Note: this convention follows the [environment variables](https://en.wikipedia.org/wiki/Environment_variable) that are typically used for the same purpose. It also helps to visually distinguish regular and variable inputs.
+- Note: this convention follows the [environment variables](https://en.wikipedia.org/wiki/Environment_variable) traditionally used for the same purpose. It also helps to visually distinguish regular and variable inputs.

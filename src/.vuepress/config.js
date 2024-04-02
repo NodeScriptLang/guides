@@ -74,8 +74,10 @@ module.exports = {
           collapsable: false,
           sidebarDepth: 1,
           children: [
-            'guide/graph-anatomy',
             'guide/naming-conventions',
+            'guide/graph-anatomy',
+            'guide/endpoints',
+            'guide/tech-overview',
           ]
         }
       ],

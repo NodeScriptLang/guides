@@ -27,13 +27,8 @@ There are two types of modules:
 You can check out the source of Standard Library modules <a href="https://github.com/NodeScriptLang/stdlib/tree/main/src/nodes" target="_blank">on GitHub</a>.
 </p>
 
-### Module names
-
-Most module use [structured naming](./naming-conventions.md), the path components are delimited with a forward slash (`/`).
-
-<p class="note">
-In Graph Lists view names delimited with <code>/</code> automatically become folders.
-</p>
+Modules use [structured naming](./naming-conventions.md) with forward slash (`/`) as a delimiter.
+Name components delimited with <code>/</code> automatically become folders in Graph Lists view.
 
 ## Node UI
 
