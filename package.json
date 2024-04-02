@@ -4,7 +4,8 @@
   "private": true,
   "scripts": {
     "dev": "vuepress dev src",
-    "build": "vuepress build src"
+    "build": "vuepress build src",
+    "postversion": "git push origin main --tags"
   },
   "license": "MIT",
   "devDependencies": {
