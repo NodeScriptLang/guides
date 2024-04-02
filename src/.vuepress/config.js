@@ -36,11 +36,7 @@ module.exports = {
     nav: [
       {
         text: 'Docs',
-        link: '/docs/',
-      },
-      {
-        text: 'FAQs',
-        link: '/faqs/',
+        link: '/',
       },
       {
         text: 'NodeScript',
@@ -48,11 +44,11 @@ module.exports = {
       }
     ],
     sidebar: {
-      '/docs/': [
+      '/': [
         {
           title: 'Getting Started',
           collapsable: false,
-          path: '/docs/',
+          path: '/',
           sidebarDepth: 1,
           children: [
             '',
@@ -77,7 +73,7 @@ module.exports = {
             'guide/naming-conventions',
             'guide/graph-anatomy',
             'guide/endpoints',
-            'guide/tech-overview',
+            'guide/modules',
           ]
         }
       ],
