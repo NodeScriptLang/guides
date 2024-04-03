@@ -1,4 +1,4 @@
-# Quick Start
+# Quick start
 
 You are 5 minutes away from creating your first NodeScript endpoint.
 
@@ -10,21 +10,21 @@ First, you need a NodeScript Platform account. You can use one of the following 
 - Login with GitHub (OAuth)
 - Magic link (the sign in link will be sent to your email)
 
-## Organisation
+## Organization
 
-At the first sign in you will be prompted to create an organisation.
+At the first sign in you will be prompted to create an organization.
 
-In NodeScript everything you create is linked to a particular organisation. This way you can add more people to collaborate with you.
+In NodeScript everything you create is linked to a particular organization. This way you can add more people to collaborate with you.
 
-If you don't need to add teammates yet, just proceed with a Personal organisation — you can change this at any time in Organisation settings.
+If you don't need to add teammates yet, just proceed with a Personal organization — you can change this at any time in Organization settings.
 
 ## Workspace
 
 Workspaces provide a way to structure your graphs, endpoints, schedules and variables. This becomes especially relevant when you build multiple applications with a single team.
 
-You can create as many workspaces as you want in the organisation; however, there are at least 3 things to consider when deciding whether you need a separate workspace:
+You can create as many workspaces as you want in the organization; however, there are at least 3 things to consider when deciding whether you need a separate workspace:
 
-- Published graphs automatically becomes the modules you can use in other graphs within the same workspace — but not in other workspaces.
+- Published graphs automatically become the modules you can use in other graphs within the same workspace — but not in other workspaces.
 - Variables (including encrypted secrets) are never accessible across workspaces.
 - Logs and metrics are displayed separately for each workspace.
 
@@ -40,7 +40,7 @@ Let's do the same now.
 
 - Right click on the canvas to bring up the Add Node menu, add the Output node.
 
-- Type "Hello, World!" into Output node's `value` field.
+- Type "Hello, World!" into the Output node's `value` field.
 
 - Click <kbd>Publish</kbd> &rarr; "Expose via HTTP" &rarr; <kbd>Publish module</kbd>.
 
@@ -52,7 +52,7 @@ Let's do the same now.
 
 Without inputs our endpoint will always show us the same "Hello, World!" no matter what.
 
-Let's make it a bit more interesting and introduce an input, so that it would greet a person with specified name.
+Let's make it a bit more interesting and introduce an input, so that it would greet a person with a specified name.
 
 - Click the <kbd>Inputs</kbd> button &rarr; <kbd>Add input</kbd>.
 
