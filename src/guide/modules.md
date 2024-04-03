@@ -76,11 +76,11 @@ That being said, unfortunately, there is still no guarantee. Even though the ESM
 
 ## Runtime restrictions
 
-When writing custom code or using a library, it is important to keep in mind the differences between the browser runtime and the backend runtime used for running the endpoints and schedules.
+When writing custom code or using a library, it's important to keep in mind the differences between the browser runtime and the backend runtime used for running the endpoints and schedules.
 
 <p class="note">
 If you never intend your modules to execute on the backend, you can use any APIs available in your browser. For example, it is possible to access local file systems using <a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_API" target="_blank">File System APIs</a> if you wish to automate something locally.<br/>
-However, if you wish to make modules that work both in the editor and on the backed, you need to stick with the restricted runtime as described below.
+However, if you wish to make modules that work both in the editor and on the backend, you need to stick with the restricted runtime as described below.
 </p>
 
 Available global objects and functions:
@@ -97,4 +97,4 @@ Available global objects and functions:
 
 Restricted APIs:
 
-- [console](https://developer.mozilla.org/en-US/docs/Web/API/console) — only available in browser. Publishing code with `console` will not break, but will not emit any logs, so generally not recommended.
+- [console](https://developer.mozilla.org/en-US/docs/Web/API/console) — only available in the browser. Publishing code with `console` will not break, but will not emit any logs, so generally not recommended.
