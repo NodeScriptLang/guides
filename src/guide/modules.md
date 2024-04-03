@@ -72,7 +72,7 @@ For example, all <a>Lodash</a> modules work fine in NodeScript.
 
 The general rule of thumb for compatibility is: if it works both in the browser and in Node.js environments using `await import`, there's a big chance it will also work in NodeScript.
 
-That being said, unfortunately, there is still no guarantee. Even though the ESM standard is mature and widely adopted, a lot of community-maintained library would still use older standards like CommonJS or UMD — those will not work out of box.
+That being said, unfortunately, there is still no guarantee. Even though the ESM standard is mature and widely adopted, a lot of community-maintained libraries would still use older standards like CommonJS or UMD — those will not work out of box.
 
 ## Runtime restrictions
 
