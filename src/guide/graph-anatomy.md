@@ -1,4 +1,4 @@
-# Graph Anatomy
+# Graph anatomy
 
 In this section we'll take a look at various graph features.
 
@@ -14,7 +14,7 @@ The core premise of node-based visual programming is: each node does one specifi
 
 ## Modules
 
-Every node is powered by a specific _module_. A module dictates which inputs are supported and how is output calculated.
+Every node is powered by a specific _module_. A module dictates which inputs are supported and how an output is calculated.
 
 One simple way of thinking of those is: modules are functions, and each node is a function call with specific arguments.
 
@@ -36,11 +36,11 @@ Select a node to access all its features.
 
 ![](../images/node-ui.png)
 
-Note: in order to minimise the visual noise most non-essential UI elements are hidden when the node is not selected.
+Note: in order to minimize the visual noise most non-essential UI elements are hidden when the node is not selected.
 
 **Noteable UI features**
 
-- When an input has <code style="color: var(--color-type-array-alt)">array</code> or <code style="color: var(--color-type-object-alt)">object</code> type, a <kbd>+</kbd> button appears on the corresponding line — this allows adding one or more items to that array or object. Each item will have its own socket, so every item can be evaluated differently. However, it is also possible to plug a value into the "parent" array/object as well (in which case the individual items will disappear and will no longer evaluate).
+- When an input has <code style="color: var(--color-type-array-alt)">array</code> or <code style="color: var(--color-type-object-alt)">object</code> type, a <kbd>+</kbd> button appears on the corresponding line — this allows adding one or more items to that array or object. Each item will have its own socket, so every item can be evaluated differently. However, it is also possible to plug a value into the "parent" array/object as well (in which case the individual items will disappear and no longer evaluate).
 
 - When a node has a custom label, its module name is displayed outside of the node frame when the node is selected.
 
@@ -68,19 +68,19 @@ Comments are little post-it notes that you can add directly to the canvas to exp
 
 ![](../images/comment.png)
 
-Just like with regular code comments, they can help others understand how to work with your graph or how certain parts of your graph works — but only if [used correctly](https://stackoverflow.blog/2021/12/23/best-practices-for-writing-code-comments).
+Just like with regular code comments, they can help others understand how to work with your graph or how certain parts of your graph work — but only if [used correctly](https://stackoverflow.blog/2021/12/23/best-practices-for-writing-code-comments).
 
 ## Inputs
 
-Remember how nodes have inputs and outputs? Well, same is the case with the graphs.
+Remember how nodes have inputs and outputs? Well, the same is the case with the graphs.
 
 Graph inputs have the following purpose, depending on how the graph is used:
 
-- When graph is published as a module and used as a node in other graphs, the inputs will appear on that node.
+- When a graph is published as a module and used as a node in other graphs, the inputs will appear on that node.
 
-- When graph is exposed as an endpoint, the inputs will be used to capture request query and body parameters.
+- When a graph is exposed as an endpoint, the inputs will be used to capture request query and body parameters.
 
-### Input Settings
+### Input settings
 
 The inputs are configured using the **Input Settings** menu.
 
@@ -114,7 +114,7 @@ Press <kbd>⚙️</kbd> (cog icon) to access the settings of a particular input.
 
 - **Deferred** (advanced setting) — do not evaluate the input immediately. This allows building custom flow control modules, but requires deep knowledge of graph runtime.
 
-- **Hide by default** — input will be hidden under "More..." section of the node. If not added explicitly, the default value will be used.
+- **Hide by default** — input will be hidden under the "More..." section of the node. If not added explicitly, the default value will be used.
 
 ### Input nodes
 
@@ -134,7 +134,7 @@ Variables are **never shared outside of the workspace**. Thus a graph that uses 
 Variables are also automatically filled when the graph is exposed as an endpoint or a schedule.
 
 <p class="note">
-<strong>Security note:</strong> encryption at rest means the environment values are stored securely in NodeScript database. However, the editor will still need the original unencrypted values in order to function properly. Thus any user with access to your workspace techincally has access to your secrets.<br/>
+<strong>Security note:</strong> encryption at rest means the environment values are stored securely in the NodeScript database. However, the editor will still need the original unencrypted values in order to function properly. Thus any user with access to your workspace technically has access to your secrets.<br/>
 Please keep this in mind when designing your systems and take extra steps to secure your secrets as and when necessary.
 </p>
 
