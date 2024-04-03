@@ -1,8 +1,8 @@
-# Naming Conventions
+# Naming conventions
 
 Generally speaking, having things named in a consistent and systematic manner reduces the cognitive overhead needed to read and understand these things.
 
-NodeScript uses the following set of rules for Standard Library. It is strongly recommended to follow those conventions so that the modules your create are consistent with the rest of the ecosystem.
+NodeScript uses the following set of rules for Standard Library. It is strongly recommended to follow those conventions so that the modules you create are consistent with the rest of the ecosystem.
 
 **Cheat sheet**
 
@@ -20,12 +20,12 @@ NodeScript uses the following set of rules for Standard Library. It is strongly 
 - Use forward slash `/` to denote namespaces and sub-categories.
 
     <p class="note">
-    Path components delimited with <code>/</code> automatically become folders in Graphs List view.
+    Path components delimited with <code>/</code> automatically become folders in the Graphs List view.
     </p>
 
 - Use structured naming with at least two path components for naming modules.
 
-- Public modules should always include a namespace describing the domain the module belongs to (e.g. `GitHub / ` for describing GitHub-related module).
+- Public modules should always include a namespace describing the domain the module belongs to (e.g. `GitHub / ` for describing a GitHub-related module).
 
 - <span class="good">Good</span>
 
