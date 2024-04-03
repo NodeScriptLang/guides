@@ -13,8 +13,7 @@ JSON only have a handful of data types:
 - string, e.g. <code style="color: var(--color-type-string-alt)">"Some Text"</code>
 - number, e.g. <code style="color: var(--color-type-number-alt)">42</code>
 - boolean, <code style="color: var(--color-type-boolean-alt)">true</code> or <code style="color: var(--color-type-boolean-alt)">false</code>
-- null, indicates the absensce of value
-
+- null, indicates the absence of value
 - array, a list containing other JSON values, enclosed in square brackets, e.g. <code style="color: var(--color-type-array-alt)">[1, 2, "some text", true]</code>
 - object, a series of key-value pairs group together, enclosed in curly braces, e.g. <code style="color: var(--color-type-object-alt)">{ "name": "Joe", age: 42 }</code>
 
@@ -44,7 +43,7 @@ The same works in reverse: <code style="color: var(--color-type-string-alt)">"42
 Obviously, not all the strings can be converted to number, so the value <code style="color: var(--color-type-string-alt)">"Not a number"</code> produced an error when plugged into a Number node.
 
 <p class="note">
-Since each node knows what data type it expects, most of the times explicit type conversion is not required. However, in some cases it might be necessary (for example, some APIs may do a strict data type checks).
+Since each node knows what data type it expects, most of the time explicit type conversion is not required. However, in some cases it might be necessary (for example, some APIs may do strict data type checks).
 </p>
 
 **Assignments:**
@@ -55,9 +54,9 @@ Since each node knows what data type it expects, most of the times explicit type
 
 ## Any type
 
-A lot of nodes will have a grey input socket, indicating that it would accept `any` type.
+A lot of nodes will have a gray input socket, indicating that it would accept `any` type.
 
-One such example is an Array node. It has a single input of type<code style="color: var(--color-type-array-alt)">array</code>, but each item inside the array has type `any`.
+One such example is an Array node. It has a single input of type <code style="color: var(--color-type-array-alt)">array</code>, but each item inside the array has type `any`.
 
 <iframe width="100%" height="640" src="https://embed.nodescript.dev/?graphId=JFctspmzer9d4VlL&theme=auto&zoom=.8" title="Any Type" frameborder="0" allowfullscreen></iframe>
 
@@ -71,11 +70,11 @@ However, for convenience, the values you type directly into the text fields of t
 
 ## Nested objects and arrays
 
-JSON objects and arrays are _compound_ types, meaning they can be composed of other data types, including other objects and arrays. Objects ocurring within other objects are often referred to as "nested".
+JSON objects and arrays are _compound_ types, meaning they can be composed of other data types, including other objects and arrays. Objects occurring within other objects are often referred to as "nested".
 
 <iframe width="100%" height="640" src="https://embed.nodescript.dev/?graphId=19pEAyllZC0t0jaU&theme=auto&zoom=.8" title="Nesting 1" frameborder="0" allowfullscreen></iframe>
 
-Simple nested objects can also be composed with just Object node by using `.` in the key.
+Simple nested objects can also be composed with just an Object node by using `.` in the key.
 
 <iframe width="100%" height="640" src="https://embed.nodescript.dev/?graphId=VvxxKvp7VTNJ5eQP&theme=auto&zoom=.8" title="Nesting 2" frameborder="0" allowfullscreen></iframe>
 
