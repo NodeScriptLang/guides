@@ -85,7 +85,7 @@ However, if you wish to make modules that work both in the editor and on the bac
 
 Available global objects and functions:
 
-- [Standard JavaScript built-ins](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects), including `Array, `Date`, `RegExp`, `Promise`, `Set`, `Map`, `Intl`, typed arrays, etc.
+- [Standard JavaScript built-ins](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects), including `Array`, `Date`, `RegExp`, `Promise`, `Set`, `Map`, `Intl`, typed arrays, etc.
 
 - timer functions: `setTimeout`, `setInterval`, `setImmediate`, `clearTimeout`, `clearInterval`, `clearImmediate`
 
