@@ -116,6 +116,12 @@ Press <kbd>⚙️</kbd> (cog icon) to access the settings of a particular input.
 
 - **Hide by default** — input will be hidden under the "More..." section of the node. If not added explicitly, the default value will be used.
 
+Here's a short infographic explaining how different settings affect the value of an input when it is not specified.
+
+<figure style="display: flex; justify-content: center">
+    <img height="600" src="../images/undefined-types.png"/>
+</figure>
+
 ### Input nodes
 
 Once configured, the corresponding Input nodes can be added to the graph to access input data.
