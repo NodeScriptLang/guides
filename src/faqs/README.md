@@ -260,13 +260,13 @@ NodeScript provides a collaborative environment, allowing multiple users to work
 
 ---
 
-## How do I request a new feature or report a bug?
+### How do I request a new feature or report a bug?
 
 To request a new feature or report a bug, you can use our support email address support@nodescript.dev. Our team reviews all feedback to continuously improve NodeScript.
 
 ---
 
-## Is there a limit to the number of workspaces I can create or join?
+### Is there a limit to the number of workspaces I can create or join?
 
 There's no set limit to the number of workspaces you can create or join in NodeScript. This flexibility allows you to organize your projects and collaborations efficiently, depending on your workflow and team size.
 

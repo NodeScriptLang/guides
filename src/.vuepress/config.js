@@ -76,6 +76,7 @@ module.exports = {
                         '',
                         'feedback-and-support',
                         'privacy-policy',
+                        'acceptable-use-policy',
                         // 'consuming-gcp-pub-sub',
                         // 'building-a-slack-application',
 
