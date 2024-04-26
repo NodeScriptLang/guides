@@ -75,6 +75,7 @@ module.exports = {
                     children: [
                         '',
                         'feedback-and-support',
+                        'terms-&-conditions',
                         'privacy-policy',
                         'acceptable-use-policy',
                         // 'consuming-gcp-pub-sub',
