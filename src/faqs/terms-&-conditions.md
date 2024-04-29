@@ -438,40 +438,37 @@ in order to provide the Services, including but not limited to Client Data, secu
 1.  If UBIO's performance of its obligations under this Agreement is prevented or delayed by any act or omission of the Client, its agents, subcontractors, consultants or employees, UBIO shall not be liable for any costs, charges or losses sustained or incurred by the Client that arise directly or indirectly from such prevention or delay.
     
 
-1.  **CHARGES AND PAYMENT**
-    
+1.  **Payment Terms and Refunds**
 
-1.  In relation to Paid, Services, the Client shall pay the Fees according to the Payment Terms specified in the Order Confirmation.
-    
+1. Fees and Billing
+The Client agrees to pay all fees applicable to the chosen Service Option, as detailed in the Order Confirmation. Fees are billed in advance on a recurring basis and are non-refundable, including cases where the Client has decided to downgrade or cease using the service before the end of the subscription period.
 
-1.  Any Fees payable for Upgrades and/or Additional Services shall be payable from the day they are activated by the Client on the Platform, as confirmed in any Additional Order Confirmation.  
-    
+1. Payment Schedule
+Payments are due according to the schedule specified in the Order Confirmation. This will typically be on a monthly or annual basis, but different terms may be agreed upon in writing. Failure to make timely payments may result in the suspension or termination of services.
 
-1.  If UBIO has not received payment of any and all applicable Fees on the due date, and without prejudice to any other rights and remedies of UBIO:
-    
+1. Automatic Renewal
+Services are automatically renewed at the end of each subscription period, with fees for the subsequent period charged to the Client’s provided payment method. The Client will receive a reminder at least thirty (30) days before any renewal, including any changes to the fees.
 
-1.  UBIO may, without liability to the Client, disable the Client’s access to all or part of the Services and UBIO shall be under no obligation to provide any or all of the Services while the invoice(s) concerned remain unpaid; and
-    
+1. Updates to Payment Information
+Clients are responsible for providing accurate and up-to-date payment information. If payment information is outdated or incorrect, the Client must update it promptly to avoid service interruptions.
 
-1.  interest shall accrue on a daily basis on such due amounts at an annual rate equal to 4% over the then current base lending rate of the Bank of England from time to time, commencing on the due date and continuing until fully paid, whether before or after judgment.
-    
+1. Late Payments
+If payment is not received by the due date, UBIO may suspend access to the Services until payment is made. Interest on past due amounts will accrue at a rate of 4% above the Bank of England's base rate from the due date until paid in full.
 
-1.  All amounts and fees stated or referred to in this Agreement:
-    
+1. **Refund Policy**
 
-1.  non-cancellable and non-refundable;
-    
+1. General
+Due to the nature of digital services, NodeScript does not typically offer refunds. Services are deemed to have commenced as soon as access is provided to the Client at the start of the subscription period.
 
-1.  are exclusive of value added tax, which shall be added to any UBIO invoice at the appropriate rate, where it applies; and
-    
+1. Exceptional Circumstances
+Refunds or credits may be granted in exceptional circumstances at the discretion of NodeScript management. Such circumstances might include, but are not limited to, system downtime exceeding service level agreements or significant service disruptions directly attributable to NodeScript.
 
-1.  shall be paid by the Client in accordance with any payment schedule which applies to the Service Option set out in the Order Confirmation.  The Client will automatically be charged, using the card details provided when it signed-up for the Service, unless and until it provides UBIO with alternative payment information and/or this Agreement is terminated in accordance with its terms.
-    
+1. Service Cancellation
+Clients may cancel their subscriptions at any time. Cancellation will take effect at the end of the paid subscription period, and the Client will have continued access to the service until this time. No refunds will be provided for any remaining portion of the subscription period unless agreed upon due to exceptional circumstances.
 
-1.  In relation to Paid Services, and following the end of the Initial Subscription Term, UBIO shall be entitled to increase the Fees upon giving the Client at least 30 days’ written notice. 
-    
+1. Upgrade and Downgrade
+If the Client chooses to upgrade or downgrade their service plan, the change in service level and billing will take effect immediately. Any increase in fees due to an upgrade will be charged pro-rata for the remainder of the billing period. In the case of a downgrade, a credit will be applied to the Client's account for the next billing cycle. No cash refunds will be issued for downgrades.
 
-1.  In relation to Free Services, UBIO shall be entitled to increase the Fees upon giving the Client at least 30 days’ written notice.
     
 
 1.  **PROPRIETARY RIGHTS**  
