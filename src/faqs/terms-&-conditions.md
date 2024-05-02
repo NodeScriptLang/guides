@@ -2,7 +2,9 @@
 
 **NODESCRIPT TERMS AND CONDITIONS OF SERVICE ("Terms")**
 
-**NodeScript is a service owned and operated by UBIO Limited (UBIO). NodeScript is a visual node-based automation platform for building scalable applications directly in your browser. These Terms set out the basis upon which UBIO provides Services (including any Free Services) to Clients. By signing up to use UBIO's Service (which includes clicking a box to confirm acceptance of these Terms and the \[**[privacy policy](./privacy-policy.md)**\]), the Client enters into a legally binding contract with UBIO.**
+**NodeScript is a service owned and operated by UBIO Limited (UBIO). NodeScript is a visual node-based automation platform for building scalable applications directly in your browser. These Terms set out the basis upon which UBIO provides Services (including any Free Services) to Clients. NodeScript is a Service for businesses, it is not intended for domestic or personal use.**  
+
+**By signing up to use UBIO's Service (which includes clicking a box to confirm acceptance of these Terms and the \[**[privacy policy](./privacy-policy.md)**\]), the Client enters into a legally binding contract with UBIO.**
 
 1.  **INTERPRETATION**  
     

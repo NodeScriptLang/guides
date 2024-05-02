@@ -4,7 +4,7 @@ module.exports = {
     /**
      * Ref：https://v1.vuepress.vuejs.org/config/#title
      */
-    title: 'NodeScript | Documentation',
+    title: 'NodeScript | Docs',
     /**
      * Ref：https://v1.vuepress.vuejs.org/config/#description
      */
@@ -18,14 +18,18 @@ module.exports = {
     head: [
         ['meta', { name: 'theme-color', content: '#3eaf7c' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
-        ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }]
+        ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
+       
+   
     ],
-
     /**
      * Theme configuration, here is the default theme configuration for VuePress.
      *
      * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
      */
+    
+
+
     themeConfig: {
         repo: '',
         editLinks: false,
@@ -33,6 +37,7 @@ module.exports = {
         editLinkText: '',
         lastUpdated: false,
         displayAllHeaders: true,
+        logo: '/img/logo.png',
         nav: [
             {
                 text: 'Docs',
@@ -47,6 +52,7 @@ module.exports = {
                 link: 'https://nodescript.dev'
             }
         ],
+    
         sidebar: {
             '/_docs/': [
                 {
