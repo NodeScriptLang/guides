@@ -62,6 +62,25 @@ Your data may be transferred to, stored at, a destination outside the European E
 
 We use cookies to enhance your experience. By using our Website, you agree to our use of cookies. Details about the cookies we use are included in a separate Cookie Policy section.
 
+### Schedule A - Cookies
+Below is a list of the cookies that we use. We have tried to ensure this is complete and up to date, but if you think that we have missed a cookie or there is any discrepancy, please let us know.
+
+**Strictly necessary**
+
+We use the following strictly necessary cookies:
+UUID. Purpose: Core site functionality.
+
+**Analytical/performance**
+
+We use the following analytical/performance cookies:
+Google Analytics. Purpose: Stats and visitor information
+
+**Functionality**
+
+We use the following Functionality cookies:
+Hubspot. Purpose: Usage statistics and return visitor information
+LinkedIn. Purpose: Usage statistics and return visitor information
+
 
 ### Data Retention
 
