@@ -9,7 +9,6 @@ jobs:
   build:
     uses: NodeScriptLang/github-actions/.github/workflows/ci-build.yaml@main
     with:
-      name: NodeScript Guides
       image: europe-west1-docker.pkg.dev/nodescript-production/nodescript-image-registry/nodescript-guides
       ref: ${{ github.ref }}
       file: Dockerfile
