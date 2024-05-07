@@ -1,6 +1,6 @@
 {
   "name": "@nodescript/guides",
-  "version": "0.1.11",
+  "version": "0.1.12",
   "private": true,
   "scripts": {
     "dev": "vuepress dev src",
