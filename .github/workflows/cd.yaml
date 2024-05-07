@@ -2,22 +2,20 @@ name: CD
 
 on:
   push:
-    branches:
-      - testci
     tags:
       - "*"
 
 jobs:
-#   build:
-#     uses: NodeScriptLang/github-actions/.github/workflows/ci-build.yaml@main
-#     with:
-#       image: europe-west1-docker.pkg.dev/nodescript-production/nodescript-image-registry/nodescript-guides
-#       file: Dockerfile
-#     secrets:
-#       REGISTRY_SECRET: ${{ secrets.GCP_REGISTRY_ACCESS }}
+  build:
+    uses: NodeScriptLang/github-actions/.github/workflows/ci-build.yaml@main
+    with:
+      image: europe-west1-docker.pkg.dev/nodescript-production/nodescript-image-registry/nodescript-guides
+      file: Dockerfile
+    secrets:
+      REGISTRY_SECRET: ${{ secrets.GCP_REGISTRY_ACCESS }}
 
   deploy-production:
-    # needs: build
+    needs: build
     uses: NodeScriptLang/github-actions/.github/workflows/ci-deploy.yaml@main
     with:
       gh_user: NodeScriptLang
