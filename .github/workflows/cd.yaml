@@ -10,7 +10,7 @@ jobs:
     uses: ubio/github-actions/.github/workflows/ci-build.yaml@master
     with:
       name: NodeScript Guides
-      image: gcr.io/automation-cloud-registry/nodescript-guides
+      image: europe-west1-docker.pkg.dev/nodescript-production/nodescript-image-registry/nodescript-guides
       ref: ${{ github.ref }}
       file: Dockerfile
     secrets:
