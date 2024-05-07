@@ -11,6 +11,7 @@ export default ({
     clearTimeout(scrollTimer)
     scrollTimer = setTimeout(() => setIframeScrolling(true), 500);
   });
+  document.addEventListener('readystatechange', () => init());
 }
 
 function setIframeScrolling(enabled) {
@@ -18,4 +19,8 @@ function setIframeScrolling(enabled) {
   [].forEach.call(iframes, el => {
     el.style.pointerEvents = enabled ? 'unset' : 'none';
   })
+}
+
+function init() {
+  // TODO init iframes
 }

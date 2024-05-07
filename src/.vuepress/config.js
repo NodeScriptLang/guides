@@ -19,15 +19,15 @@ module.exports = {
         ['meta', { name: 'theme-color', content: '#3eaf7c' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
         ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-       
-   
+
+
     ],
     /**
      * Theme configuration, here is the default theme configuration for VuePress.
      *
      * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
      */
-    
+
 
 
     themeConfig: {
@@ -37,7 +37,7 @@ module.exports = {
         editLinkText: '',
         lastUpdated: false,
         displayAllHeaders: true,
-        logo: '/img/logo.png',
+        logo: '/img/logo.svg',
         nav: [
             {
                 text: 'Docs',
@@ -52,7 +52,7 @@ module.exports = {
                 link: 'https://nodescript.dev'
             }
         ],
-    
+
         sidebar: {
             '/_docs/': [
                 {

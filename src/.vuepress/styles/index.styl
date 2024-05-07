@@ -43,28 +43,37 @@
 
   --color-highlight-0: hsl(48deg, 90%, 90%);
   --color-highlight-1: hsl(48deg, 90%, 75%);
-  --color-highlight-2: hsl(48deg, 90%, 60%);
-  --color-highlight-3: hsl(48deg, 90%, 45%);
+  --color-highlight-2: hsl(32deg, 90%, 65%);
+  --color-highlight-3: hsl(32deg, 90%, 50%);
 
-  --color-focus-0: hsl(210deg, 75%, 95%);
-  --color-focus-1: hsl(210deg, 75%, 85%);
-  --color-focus-2: hsl(210deg, 75%, 75%);
-  --color-focus-3: hsl(210deg, 75%, 65%);
+  --color-focus-0: hsl(205deg, 75%, 95%);
+  --color-focus-1: hsl(205deg, 75%, 85%);
+  --color-focus-2: hsl(205deg, 75%, 75%);
+  --color-focus-3: hsl(205deg, 75%, 65%);
 
-  --color-success-0: hsl(140deg, 50%, 90%);
-  --color-success-1: hsl(140deg, 50%, 75%);
-  --color-success-2: hsl(140deg, 50%, 50%);
-  --color-success-3: hsl(140deg, 50%, 40%);
+  --color-success-0: hsl(120deg, 50%, 90%);
+  --color-success-1: hsl(120deg, 50%, 75%);
+  --color-success-2: hsl(120deg, 50%, 50%);
+  --color-success-3: hsl(120deg, 50%, 40%);
 
   --color-danger-0: hsl(0deg, 75%, 90%);
   --color-danger-1: hsl(0deg, 75%, 70%);
   --color-danger-2: hsl(0deg, 75%, 60%);
   --color-danger-3: hsl(0deg, 75%, 50%);
+
+  --color-primary: hsl(205deg, 85%, 45%);
+  --color-primary-text: #fff;
+
+  --color-warn: var(--color-highlight-3);
+  --color-warn-text: #000;
+
+  --color-danger: var(--color-danger-2);
+  --color-danger-text: #fff;
 }
 
 html.dark {
-    --color-base-0: hsl(200deg, 15%, 20%);
-    --color-base-1: hsl(200deg, 15%, 26%);
+    --color-base-0: hsl(200deg, 15%, 16%);
+    --color-base-1: hsl(200deg, 15%, 24%);
     --color-base-2: hsl(200deg, 15%, 32%);
     --color-base-3: hsl(200deg, 15%, 40%);
 
@@ -78,10 +87,19 @@ html.dark {
     --color-highlight-2: hsl(48deg, 50%, 50%);
     --color-highlight-3: hsl(48deg, 50%, 60%);
 
-    --color-focus-0: hsl(210deg, 40%, 25%);
-    --color-focus-1: hsl(210deg, 40%, 35%);
-    --color-focus-2: hsl(210deg, 40%, 45%);
-    --color-focus-3: hsl(210deg, 40%, 55%);
+    --color-focus-0: hsl(205deg, 50%, 25%);
+    --color-focus-1: hsl(205deg, 50%, 35%);
+    --color-focus-2: hsl(205deg, 50%, 45%);
+    --color-focus-3: hsl(205deg, 50%, 55%);
+}
+
+html {
+  background: var(--color-base-0);
+  color: var(--color-text-0);
+}
+
+a {
+  color: var(--color-primary);
 }
 
 .home .hero img {
