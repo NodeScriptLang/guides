@@ -56,15 +56,7 @@
 
 **Paid Service:** a paid for Service Option, where the Client pays certain Fees to UBIO, details of which shall be set out in the Order Confirmation, if applicable
 
-**PAN Data:** primary account number, the unique payment card number that identifies the issuer and the particular cardholder account associated with a payment card; 
-
 **Payment Terms:** the payment terms relating to the Client’s payment of any applicable Fees to UBIO as specified in the Order Confirmation (these will be monthly or annual fees, unless otherwise agreed in writing).  
-
-**PCI:** payment card industry; 
-
-**PCI Compliance:** payment card industry compliance; 
-
-**PCI-DSS Compliance:** the Payment Card Industry Data Security Standard as issued by the Payment Card Industry Data Security Standards Council from time to time; 
 
 **Platform:** the UBIO NodeScript, as detailed in the Services, and any platform through which UBIO provides the Services to the Client;
 
@@ -87,8 +79,6 @@
 **UBIO:** has the meaning given in clause 2.1;  
 
 **Upgrades:** means releases of the Platform that corrects faults, adds functionality or otherwise amends or upgrades the existing Platform, at UBIO’s discretion, as made available to all of UBIO’s Clients;  
-
-**Vault:** UBIO’s method of using tokenization to encrypt PCI data; 
 
 **Virus**:  any thing or device (including any software, code, file or programme) which may: prevent, impair or otherwise adversely affect the operation of any computer software, hardware or network, any telecommunications service, equipment or network or any other service or device; prevent, impair or otherwise adversely affect access to or the operation of any programme or data, including the reliability of any programme or data (whether by re-arranging, altering or erasing the programme or data in whole or part or otherwise); or adversely affect the user experience, including worms, trojan horses, viruses and other similar things or devices.
 
@@ -246,18 +236,6 @@ and UBIO reserves the right, without liability or prejudice to its other rights 
 1.  The rights provided under this Clause 4 are granted to the Client only, and shall not be considered granted to any subsidiary or holding company of the Client.
     
 
-1.  **PCI COMPLIANCE**
-    
-
-1.  The Client warrants that if its use of the Services includes the receipt, transfer, processing, transmission, maintenance, storage, download or access to any PAN Data (“**PAN Data Transaction**”) through the Platform that it will use UBIO’s Vault for each such PAN Data Transaction. 
-    
-
-1.  If the Client fails to comply with the terms of clause 5.1, and without prejudice to any other rights or remedies has under these Terms, UBIO may suspend or terminate the Agreement immediately. 
-    
-
-1.  The Client acknowledges and accepts that its use of the Vault is without prejudice to the Client’s own obligations to implement and maintain its own PCI-DSS Compliance. 
-    
-
 1.  **AVAILABILITY OF THE SERVICES**
     
 
@@ -274,18 +252,6 @@ and UBIO reserves the right, without liability or prejudice to its other rights 
     
 
 1.  UBIO shall use commercially reasonable endeavours to provide the Support Services to the Client between the hours of 9.00 am – 5:30 pm on a Business Day.
-    
-
-1.  The Client acknowledges and accepts that:
-    
-
-1.   any use of the Forum, including any reliance on information or advice provided through the Forum, is at the Client’s own risk.  
-    
-
-1.  UBIO does not monitor the Forum; and 
-    
-
-1.  UBIO does not guarantee the accuracy of any advice, guidance or information shared through the Forum. 
     
 
 1.  **CLIENT DATA** 
@@ -306,7 +272,7 @@ and UBIO reserves the right, without liability or prejudice to its other rights 
 1.  **DATA PROTECTION**
     
 
-1.  UBIO shall, in providing the Services, comply with its [privacy policy](https://ub.io/privacy-policy) (“**UBIO Privacy Policy**”) in relation to the privacy and security of the Client Data, as such document may be amended from time to time by UBIO in its sole discretion.
+1.  NodeScript via UBIO shall, in providing the Services, comply with its [privacy policy](./privacy-policy.md) (“**NodeScript Privacy Policy**”) in relation to the privacy and security of the Client Data, as such document may be amended from time to time by UBIO in its sole discretion.
     
 
 1.  Both parties will comply with all applicable requirements of the Data Protection Legislation. This Clause 9.2 is in addition to, and does not relieve, remove or replace, a party's obligations or rights under the Data Protection Legislation.
