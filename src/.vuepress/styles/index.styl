@@ -98,12 +98,38 @@ html {
   color: var(--color-text-0);
 }
 
-a {
-  color: var(--color-primary);
+body {
+  font-family: "Fira Sans", sans-serif;
 }
 
-.home .hero img {
-  max-width: 450px;
+a {
+  color: var(--color-primary);
+  font-weight: 400;
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+  font-weight: 500;
+}
+
+code {
+  font-family: "Fira Code", sans-serif;
+}
+
+.theme-container {
+
+  .navbar .site-name {
+    font-size: 18px;
+    font-weight: 400;
+  }
+
+  .sidebar-heading.clickable.active, a.sidebar-link.active, .sidebar-heading {
+    font-weight: 500;
+  }
+
+}
+
+.theme-container.page-wide .theme-default-content {
+  max-width: 1024px;
 }
 
 .note {
@@ -127,10 +153,6 @@ a {
   align-items: center;
   justify-content: center;
   font: 900 italic 12px Georgia, serif;
-}
-
-.theme-container.page-wide .theme-default-content {
-  max-width: 1024px;
 }
 
 .good, .bad {

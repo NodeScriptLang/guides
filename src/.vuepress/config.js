@@ -4,7 +4,7 @@ module.exports = {
     /**
      * Ref：https://v1.vuepress.vuejs.org/config/#title
      */
-    title: 'NodeScript | Docs',
+    title: 'NodeScript · Docs',
     /**
      * Ref：https://v1.vuepress.vuejs.org/config/#description
      */
@@ -19,17 +19,18 @@ module.exports = {
         ['meta', { name: 'theme-color', content: '#3eaf7c' }],
         ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
         ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
-
-
+        ['link', { rel: 'preconnect', href: 'https://fonts.googleapis.com' }],
+        ['link', { rel: 'preconnect', href: 'https://fonts.gstatic.com', crossorigin: true }],
+        ['link', {
+            rel: 'stylesheet',
+            href: 'https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Fira+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap',
+        }],
     ],
     /**
      * Theme configuration, here is the default theme configuration for VuePress.
      *
      * ref：https://v1.vuepress.vuejs.org/theme/default-theme-config.html
      */
-
-
-
     themeConfig: {
         repo: '',
         editLinks: false,
@@ -83,10 +84,7 @@ module.exports = {
                         'feedback-and-support',
                         'terms-&-conditions',
                         'privacy-policy',
-                        'acceptable-use-policy',
-                        // 'consuming-gcp-pub-sub',
-                        // 'building-a-slack-application',
-
+                        'acceptable-use-policy'
                     ]
                 }
             ],
