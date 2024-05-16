@@ -120,7 +120,7 @@ Once the token is obtained, use Web / Bearer Auth to add a prefix to it, then at
 
 So far we were only using GET requests. As mentioned before, such requests typically retrieve or query the information. POST requests, on the other hand, are most often used to instruct the services to do something (e.g. to create or to update a resource).
 
-The most important semantic difference between GET and POST is that the POST requests also support a "body" — a data payload in some format. The format is designated via `Content-Type` request header.
+The most important functional difference between GET and POST is that POST requests also support a "body" — a data payload in some format. The format is designated via `Content-Type` request header.
 
 The vast majority of the modern services use JSON format for accepting structured data.
 
