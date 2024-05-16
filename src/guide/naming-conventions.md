@@ -19,7 +19,7 @@ NodeScript uses the following set of rules for Standard Library. It is strongly 
 
 - Use forward slash `/` to denote namespaces and sub-categories.
 
-    <p class="note">
+    <p class="info">
     Path components delimited with <code>/</code> automatically become folders in the Graphs List view.
     </p>
 

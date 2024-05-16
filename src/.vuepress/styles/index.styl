@@ -99,6 +99,7 @@ html {
 }
 
 body {
+  font-size: 16px;
   font-family: "Fira Sans", sans-serif;
 }
 
@@ -111,8 +112,9 @@ h1, h2, h3, h4, h5, h6, strong {
   font-weight: 500;
 }
 
-code {
+code, kbd {
   font-family: "Fira Code", sans-serif;
+  font-size: 14px;
 }
 
 .theme-container {
@@ -120,6 +122,14 @@ code {
   .navbar .site-name {
     font-size: 18px;
     font-weight: 400;
+  }
+
+  .sidebar, .sidebar-link {
+    font-size: 16px;
+  }
+
+  .sidebar-heading {
+    font-size: 16px;
   }
 
   .sidebar-heading.clickable.active, a.sidebar-link.active, .sidebar-heading {
@@ -132,14 +142,14 @@ code {
   max-width: 1024px;
 }
 
-.note {
+.info {
   position: relative;
   padding: 16px;
   background: var(--color-base-1);
   border-left: 4px solid var(--color-focus-3);
 }
 
-.note::before {
+.info::before {
   content: 'i';
   position: absolute;
   top: -8px;

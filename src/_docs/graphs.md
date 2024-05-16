@@ -2,7 +2,7 @@
 
 Graphs are our canvas for building things in NodeScript. They can contain many connected [nodes](./nodes.md), each performing a specific task or function. By combining nodes in a Graph, you can build complex applications of your logic. The example below allows you check the sunrise for any given city, try it by changing the value in the "city" input and running the graph by selecting 'play' on the output node.
 
-<iframe width="780" height="420" src="https://embed.nodescript.dev/?graphId=1XHkchnfIBzbNqHn&theme=auto&zoom=0.5" title="Sunrise Set" frameborder="0" allowfullscreen></iframe>
+<iframe width="780" height="420" src="https://embed.nodescript.dev/?graphId=1XHkchnfIBzbNqHn&theme=auto&zoom=0.5" frameborder="0" allowfullscreen allow="clipboard-read; clipboard-write"></iframe>
 
 You'll use the Graph to interact with, create, and manage your workflows or applications by linking nodes in different ways. They are infinitely scrollable and are the main place you will interact with NodeScript. You can zoom in and out of the Graph to orientate yourself.
 
@@ -11,8 +11,8 @@ Graphs give you:
  - **Instant Feedback** - graphs are evaluated as you build and the results are displayed immediately.
  - **Composability** - you can combine many Nodes together to build complex functionality.
  - **Reusability** - a Graph can be published as a module, allowing its functionality to be used in other graphs.
- - **Shared Environments** - users share access to, and can work simultaneously on, graphs within the same workspace. 
- 
+ - **Shared Environments** - users share access to, and can work simultaneously on, graphs within the same workspace.
+
  ## Legend
 
  Data types within a NodeScript graph are represented in the following colors:
@@ -21,14 +21,14 @@ Graphs give you:
  * Green - String
  * Yellow - Number
  * Blue - Boolean
- * Purple - Object 
+ * Purple - Object
  * Pink - Array
 
   ## Keyboard Shortcuts
 
 ![Keyboard Shortcuts](./images/graphs/shortcuts.png)
 
- <!-- 
+ <!--
  * Create node: Spacebar/Right Click
  * Delete Node: Backspace
  * Duplicate: Cmd + D

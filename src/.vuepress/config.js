@@ -107,6 +107,7 @@ module.exports = {
                         'tutorials/',
                         'tutorials/json-essentials',
                         'tutorials/working-with-lists',
+                        'tutorials/http-requests',
                     ]
                 },
                 {
@@ -118,6 +119,7 @@ module.exports = {
                         'guide/graph-anatomy',
                         'guide/endpoints',
                         'guide/modules',
+                        'guide/fetch-vs-http-request',
                     ]
                 }
             ],

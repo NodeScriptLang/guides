@@ -33,7 +33,7 @@ At its core, NodeScript is a node-based visual programming language that enables
 </style>
 
 <figure class="video_container">
-  <iframe src="https://drive.google.com/file/d/1NjlDH_5YYIuSacKPsxOTyrbjMSGPrC_y/preview" frameborder="0" allowfullscreen="true"></iframe>
+  <iframe src="https://drive.google.com/file/d/1NjlDH_5YYIuSacKPsxOTyrbjMSGPrC_y/preview" frameborder="0" allowfullscreen="true" allow="clipboard-read; clipboard-write"></iframe>
 </figure>
 
 The functionality and scope of your graph are entirely up to you. NodeScript offers an infinitely scalable canvas that can accommodate as many [nodes](nodes.md) as you need!
@@ -67,5 +67,3 @@ Finally the fact that you can build these graphs of scaling complexity and expos
 - **Node**: The fundamental building blocks in a graph that execute specific tasks.
 - **Endpoint**: The URL or location where the graph's output can be accessed or triggered.
 - **Module**: A reusable graph or subset of nodes encapsulated as a single unit in NodeScript. Modules allow for the encapsulation of specific logic or functionality, making it easier to incorporate into larger workflows without redundancy.
-  
-

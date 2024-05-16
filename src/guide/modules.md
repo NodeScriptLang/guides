@@ -22,7 +22,7 @@ A quick way to access the compiled module is to copy the Graph Id from the URL a
 
 The other graphs can then import the compiled module from the Registry and use it.
 
-<p class="note">
+<p class="info">
 The compiled code of published graphs should be treated as <strong>public domain</strong>.
 For this reason, you should <strong>never publish graphs with hardcoded secrets</strong> — always store your secrets in encrypted variables.
 </p>
@@ -58,7 +58,7 @@ In JavaScript, certain operations like I/O or waiting require asynchronous execu
 
 NodeScript compiler will automatically make modules asynchronous if there are asynchronous nodes in the graph. Thus, when creating modules with custom code nodes, pay attention to choosing an appropriate version of Eval node. Specifically,
 
-- Use Eval / Async if you need to work with asynchronous code (this includes but not limited to Fetch API, Web Crypto and any use case requiring Promise).
+- Use Eval / Async if you need to work with asynchronous code (this includes but not limited to Fetch API, Web Crypto and anything else requiring Promise).
 
 - For any other use case, prefer Eval / Sync.
 
@@ -78,7 +78,7 @@ That being said, unfortunately, there is still no guarantee. Even though the ESM
 
 When writing custom code or using a library, it's important to keep in mind the differences between the browser runtime and the backend runtime used for running the endpoints and schedules.
 
-<p class="note">
+<p class="info">
 If you never intend your modules to execute on the backend, you can use any APIs available in your browser. For example, it is possible to access local file systems using <a href="https://developer.mozilla.org/en-US/docs/Web/API/File_System_API" target="_blank">File System APIs</a> if you wish to automate something locally.<br/>
 However, if you wish to make modules that work both in the editor and on the backend, you need to stick with the restricted runtime as described below.
 </p>

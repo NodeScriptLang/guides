@@ -14,7 +14,7 @@ With NodeScript you can:
 
 Here is a minimal example:
 
-<iframe width="100%" height="512" src="https://embed.nodescript.dev/?graphId=19OmbEFN9CY4oEQ6&theme=auto" title="Hello World" frameborder="0" allowfullscreen tabindex=0></iframe>
+<iframe width="100%" height="512" src="https://embed.nodescript.dev/?graphId=19OmbEFN9CY4oEQ6&theme=auto" frameborder="0" allowfullscreen allow="clipboard-read; clipboard-write"></iframe>
 
 The above example, while contrived, demonstrates a few important aspects of NodeScript:
 

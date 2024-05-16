@@ -12,7 +12,7 @@ NodeScript offers a unique perspective to the problem by allowing nodes to run f
 
 Let's see how it works in practice. In the following example we will greet 10 people — using just two nodes.
 
-<iframe width="100%" height="640" src="https://embed.nodescript.dev/?graphId=Y5DOgKWl3J6mbFKz&theme=auto&zoom=.8" title="Greetings" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="640" src="https://embed.nodescript.dev/?graphId=Y5DOgKWl3J6mbFKz&theme=auto" frameborder="0" allowfullscreen allow="clipboard-read; clipboard-write"></iframe>
 
 Notice a little diamond-shaped socket on the String / Join with `x 10` next to it. It means that the node will execute for every item of the array connected to it (so 10 times in our case).
 
@@ -20,7 +20,7 @@ The output socket of String / Join is also diamond-shaped, which indicates that 
 
 The "Expand" mode can be enabled for every node input individually by clicking the corresponding socket. Multiple inputs of the same node can be expanded, as in the example below.
 
-<iframe width="100%" height="520" src="https://embed.nodescript.dev/?graphId=2RPK7iAi4voA0jyi&theme=auto&zoom=.8" title="Objects" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="520" src="https://embed.nodescript.dev/?graphId=2RPK7iAi4voA0jyi&theme=auto" frameborder="0" allowfullscreen allow="clipboard-read; clipboard-write"></iframe>
 
 As you can see, the array of product names and the array of prices are joined by an index to create three objects. The non-expanded property `type` is just repeated for all three objects.
 
@@ -37,13 +37,13 @@ In NodeScript this approach can be used together with the Array Expansion featur
 
 To demonstrate, let's take an array of 10 random words and then find the ones that start with the letter `c`.
 
-<iframe width="100%" height="640" src="https://embed.nodescript.dev/?graphId=MKnnX8u193hM7mlM&theme=auto&zoom=.8" title="Filter 1" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="640" src="https://embed.nodescript.dev/?graphId=MKnnX8u193hM7mlM&theme=auto" frameborder="0" allowfullscreen allow="clipboard-read; clipboard-write"></iframe>
 
 We do this by first evaluating 10 boolean conditions, one for each word, and then use these 10 conditions to produce the filtered array.
 
 Well, that was pretty easy. How about we crank it up a notch and do something slightly more arbitrary. Just for the sake of the exercise, let's find the words that are longer than the average length amongst those words.
 
-<iframe width="100%" height="640" src="https://embed.nodescript.dev/?graphId=kzRolLG4AYHIo0Rm&theme=auto&zoom=.8" title="Filter 2" frameborder="0" allowfullscreen></iframe>
+<iframe width="100%" height="640" src="https://embed.nodescript.dev/?graphId=kzRolLG4AYHIo0Rm&theme=auto" frameborder="0" allowfullscreen allow="clipboard-read; clipboard-write"></iframe>
 
 Let's go through this graph step by step.
 
@@ -59,7 +59,7 @@ Let's go through this graph step by step.
 
 Sorting and grouping are the two very common operations on the lists of objects. In NodeScript those are trivial and don't require much explanation (assuming you've followed us so far).
 
- <iframe width="100%" height="640" src="https://embed.nodescript.dev/?graphId=37tCV8Xh1FqXI3jb&theme=auto&zoom=.8" title="Sort 2" frameborder="0" allowfullscreen></iframe>
+ <iframe width="100%" height="640" src="https://embed.nodescript.dev/?graphId=37tCV8Xh1FqXI3jb&theme=auto" frameborder="0" allowfullscreen allow="clipboard-read; clipboard-write"></iframe>
 
 **Assignments:**
 

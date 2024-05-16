@@ -23,7 +23,7 @@ There are two types of modules:
 - published graphs automatically become modules accessible within the same workspace
 - native EcmaScript modules written in TypeScript
 
-<p class="note">
+<p class="info">
 You can check out the source of Standard Library modules <a href="https://github.com/NodeScriptLang/stdlib/tree/main/src/nodes" target="_blank">on GitHub</a>.
 </p>
 
@@ -139,7 +139,7 @@ Variables are **never shared outside of the workspace**. Thus a graph that uses 
 
 Variables are also automatically filled when the graph is exposed as an endpoint or a schedule.
 
-<p class="note">
+<p class="info">
 <strong>Security note:</strong> encryption at rest means the environment values are stored securely in the NodeScript database. However, the editor will still need the original unencrypted values in order to function properly. Thus any user with access to your workspace technically has access to your secrets.<br/>
 Please keep this in mind when designing your systems and take extra steps to secure your secrets as and when necessary.
 </p>
@@ -148,7 +148,7 @@ Please keep this in mind when designing your systems and take extra steps to sec
 
 The Output node captures the result that the graph produces when used as a module or an endpoint.
 
-<p class="note">
+<p class="info">
 There can be at most one Output node in a graph.
 </p>
 
