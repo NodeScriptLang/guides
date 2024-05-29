@@ -25,6 +25,8 @@ module.exports = {
             rel: 'stylesheet',
             href: 'https://fonts.googleapis.com/css2?family=Fira+Code:wght@300..700&family=Fira+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap',
         }],
+        ['script', {}, 'window._slaaskSettings = {key: "spk-8b437b23-96b7-4d5d-82b0-b6c248efbb6d"}'],
+        ['script', { src: 'https://cdn.slaask.com/chat_loader.js', async: true, defer: true }],
     ],
     /**
      * Theme configuration, here is the default theme configuration for VuePress.
@@ -47,6 +49,10 @@ module.exports = {
             {
                 text: 'FAQs',
                 link: '/faqs/',
+            },
+            {
+                text: 'Support',
+                link: '/support/',
             },
             {
                 text: 'NodeScript',
@@ -81,7 +87,6 @@ module.exports = {
                     collapsable: false,
                     children: [
                         '',
-                        'feedback-and-support',
                         'terms-&-conditions',
                         'privacy-policy',
                         'acceptable-use-policy'
