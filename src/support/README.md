@@ -4,7 +4,7 @@ Thank you for exploring NodeScript. Please note that we're currently in an activ
 
 [support@nodescript.dev](mailto:support@nodescript.dev)
 
-If you have any questions or need help with a specific issue, please check our Frequently Asked Questions (FAQ) section. We're committed to making NodeScript better every day and we appreciate your contribution to this journey.
+If you have any questions or need help with a specific issue, please check our Frequently Asked Questions (FAQ) section. If you can't find a solution to your issue there, ask us directly through the support chat. We're committed to making NodeScript better every day and we appreciate your contribution to this journey.
 <script>
     var checkSlaask = setInterval(function() {
     if (window._slaask) {
