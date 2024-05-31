@@ -8,10 +8,15 @@ If you have any questions or need help with a specific issue, please check our F
 
 
 <script>
-    var checkSlaask = setInterval(function() {
-    if (window._slaask) {
-        window._slaask.show();
-        clearInterval(checkSlaask);
+    // Script to open Slaask chat automatically when loading the page.
+    export default {
+        mounted() {
+            var checkSlaask = setInterval(function() {
+                if (window._slaask) {
+                    window._slaask.show();
+                    clearInterval(checkSlaask);
+                }
+            }, 100); 
+        }
     }
-}, 100); 
 </script>
