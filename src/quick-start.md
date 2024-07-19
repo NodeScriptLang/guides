@@ -87,4 +87,4 @@ Now open your endpoint in the browser again, but this time add `?name=Joe` to th
 
 Great job so far!
 
-Make sure to check out our [bite-sized tutorials](./tutorials) to learn more NodeScript fundamentals.
+Make sure to check out our [bite-sized tutorials](./tutorials/README.md) to learn more NodeScript fundamentals.
